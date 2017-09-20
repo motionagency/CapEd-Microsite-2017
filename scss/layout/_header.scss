@@ -1,0 +1,28 @@
+// CapEd logo
+.site-title {
+
+	img {
+		width: 124px;
+		height: 53px;
+	}
+}
+
+.site-branding {
+	padding-top: 23px;
+}
+
+
+// Header
+header {
+	height: 90px;
+	background-color: $white;
+	box-shadow: 0 4px 2px -2px gray;
+
+	#site-navigation {
+		ul {
+			li {
+				display: inline;
+			}
+		}
+	}
+}
