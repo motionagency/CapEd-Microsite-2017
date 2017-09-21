@@ -1,4 +1,16 @@
 body {
 	font-family: sans-serif;
 	font-size: 1em;
+	padding-top: 90px;
+}
+
+// WP-admin logged in styles
+.logged-in {
+	header {
+		top: 31px;
+	}
+
+	#wpadminbar {
+		background-color: $purple;
+	}
 }

@@ -24,17 +24,17 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'caped' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="container-fluid">
+	<header id="masthead" class="site-header fixed-top">
+		<div class="container">
 			<div class="row">
 				<div class="col-3">
 					<div class="site-branding">
 						<?php
 						the_custom_logo();
 						if ( is_front_page() && is_home() ) : ?>
-							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/caped-logo.svg" alt="Capital Education"></a></h1>
+							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="swoop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/caped-logo.svg" alt="Capital Education"></a></h1>
 						<?php else : ?>
-							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/caped-logo.svg" alt="Capital Education"></a></p>
+							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="swoop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/caped-logo.svg" alt="Capital Education"></a></p>
 						<?php
 						endif;
 
@@ -54,12 +54,26 @@
 							) );
 						?>
 					</nav><!-- #site-navigation -->
+
+						<div class="mobile-menu-wrap">
+							<span class="mobile-menu-5">
+								<span class="line-1"></span>
+								<span class="line-2"></span>
+								<span class="line-3"></span>
+							</span>							
+						</div>
 				</div>
 			</div>
 		</div>
-
-
-
 	</header><!-- #masthead -->
+
+	<nav class="caped-mobile">
+		<?php
+			wp_nav_menu( array(
+				'theme_location' => 'menu-1',
+				'menu_id'        => 'primary-menu',
+			) );
+		?>
+	</nav>
 
 	<div id="content" class="site-content">

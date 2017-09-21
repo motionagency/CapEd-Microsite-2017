@@ -4,5 +4,16 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 700px
+	margin-bottom: -0.5em;
+}
+
+.one {
+	background-color: $blue;
+	text-align: center;
+
+	p {
+		color: $white;
+		font-size: 2.25em;
+	}
+
 }

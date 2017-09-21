@@ -18,11 +18,77 @@ header {
 	background-color: $white;
 	box-shadow: 0 4px 2px -2px gray;
 
+	.mobile-menu {
+		display: block;
+
+		@include responsive(min-width, 800px) {
+			display: none;
+		}
+	}
+
 	#site-navigation {
+		padding-top: 35px;
+		display: none;
+
+		@include responsive(min-width, 800px) {
+			display: block;
+		}
+
 		ul {
 			li {
 				display: inline;
+				padding-right: 15px;
+
+				a {
+					font-size: 0.9375rem;
+					color: $blue;
+				}
 			}
 		}
 	}
+}
+
+.caped-mobile {
+	display: none;
+	height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 92px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    background-color: $blue;
+    text-align: center;
+
+    ul {
+    	list-style: none;
+    	padding-left: 0;
+    	margin: 0;
+
+    	li  {
+    		a {
+    			color: $white;
+    			text-decoration: none;
+    			font-size: 2em;
+    			line-height: 1.5;
+				-webkit-transition: ease-out 200ms;
+				-moz-transition: ease-out 200ms;
+				-o-transition: ease-out 200ms;
+				transition: ease-out 200ms;
+
+    			&:hover {
+    				color: $red;
+					-webkit-transition: ease-out 200ms;
+					-moz-transition: ease-out 200ms;
+					-o-transition: ease-out 200ms;
+					transition: ease-out 200ms;
+    			}
+    		}
+    	}
+    }
+}
+
+.caped-mobile-open {
+	display: block;
 }

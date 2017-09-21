@@ -1,0 +1,75 @@
+// Footer site map
+
+footer {
+	height: 114px;
+	background-color: $grey;
+	display: flex;
+	align-items: center;
+
+	.caped-footer-logo {
+		@include responsive(max-width, 1024px) {
+			text-align: center;
+		}
+	}
+
+
+
+	img {
+		width: 105px;
+		height: 45px;
+
+		@include responsive(max-width, 1024px) {
+			margin: 15px 0 15px 0;
+		}
+	}
+
+	@include responsive(max-width, 1024px) {
+		height: 100%;
+		padding: 25px 0 25px 0;
+	}
+}
+
+
+.footer-navigation {
+	ul {
+		text-align: center;
+		padding-left: 0;
+
+		li {
+			display: inline;
+			padding-right: 15px;
+
+			a {
+				font-size: 0.9375rem;
+				color: $blue;
+			}
+		}
+	}
+}
+
+// Footer social media
+
+.social-media {
+	ul {
+		text-align: right;
+		padding-left: 0;
+
+		@include responsive(max-width, 1024px) {
+			text-align: center;
+		}
+		
+		li {
+			display: inline;
+			a {
+
+			}
+		}
+	}
+}
+
+
+// Copyright 
+.copyright {
+	text-align : center; 
+	display: block;
+}

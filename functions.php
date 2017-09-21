@@ -117,6 +117,7 @@ add_action( 'widgets_init', 'caped_widgets_init' );
  * Enqueue scripts and styles.
  */
 function caped_scripts() {
+	wp_enqueue_style( 'fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 	wp_enqueue_style( 'bootstrap-v4', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css' );
 	wp_enqueue_style( 'caped-main', get_template_directory_uri() . '/css/caped.css' );
 	wp_enqueue_style( 'caped-style', get_stylesheet_uri() );
