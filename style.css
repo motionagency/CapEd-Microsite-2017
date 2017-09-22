@@ -16,8 +16,88 @@ Use it to make something cool, have fun, and share what you've learned with othe
 CapEd is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
+/**
+ * @license
+ * MyFonts Webfont Build ID 3454575, 2017-09-22T12:08:26-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Museo-900 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/900/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: Museo-700 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/700/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: Museo-300 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/300/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: Museo-100 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/100/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: Museo-500 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/500/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: Museo-300Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/300-italic/
+ * Copyright: Copyright (c) 2008-2010 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: Museo-900Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/900-italic/
+ * Copyright: Copyright (c) 2008-2010 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: Museo-100Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/100-italic/
+ * Copyright: Copyright (c) 2008-2010 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: Museo-500Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/500-italic/
+ * Copyright: Copyright (c) 2008-2010 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: Museo-700Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/700-italic/
+ * Copyright: Copyright (c) 2008-2010 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 500,000
+ *
+ * Webfont: AvenirLTStd-Heavy by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir/85-heavy/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ *
+ * Webfont: AvenirLTStd-Book by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir/45-book/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ *
+ * Webfont: AvenirLTStd-HeavyOblique by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir/85-heavy-oblique/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3454575
+ *
+ * © 2017 MyFonts Inc
+*/
 
-*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */

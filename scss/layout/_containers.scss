@@ -17,3 +17,29 @@
 	}
 
 }
+
+.three {
+	background-color: $purple;
+
+	h2, p {
+		color: $white;
+	}
+}
+
+.four {
+	background-color: $blue;
+
+	h2, p {
+		color: $white;
+	}
+}
+
+.six {
+	background-color: $blue;
+	text-align: center;
+
+	h3, p {
+		color: $white;
+	}
+
+}

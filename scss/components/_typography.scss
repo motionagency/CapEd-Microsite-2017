@@ -1,24 +1,35 @@
 h1 {
+	font-family: Museo-500;
 	font-size: 4.375em; // Museo 70px 500 weight
 	color: $blue;
 }
 
 h2 {
+	font-family: Museo-300;
 	font-size: 2.8125em; // Museo 45px 300 weight italic
 	color: $blue;
 }
 
 h3 {
-	font-size: 1.375em; // Avenir 85 Heavy 22px 
+	font-family: AvenirLTStd-Heavy;
+	font-size: 1.375em; // Avenir 85 Heavy 22px
 	color: $purple;
 }
 
 h4 {
+	font-family: AvenirLTStd-HeavyOblique;
 	font-size: 1.25em; // Avenir 85 Heavy Oblique 20px
 	color: $bodyCopy;
 }
 
 p {
+	font-family: AvenirLTStd-Book;
 	font-size: 1.25em; // Avenir 45 Book 20px
 	color: $bodyCopy;
+}
+
+.numbers {
+	font-family: Museo-700;
+	font-size: 5rem;
+	color: $white;
 }

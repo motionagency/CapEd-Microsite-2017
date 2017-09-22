@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-2 caped-footer-logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="swoop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/caped-logo.svg" alt="Capital Education"></a>
@@ -43,9 +43,9 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<small class="copyright">&copy; <?php echo date('Y'); ?> by Capital Education, LLC. All rights reserved.</small>		
+					<small class="copyright">&copy; <?php echo date('Y'); ?> by Capital Education, LLC. All rights reserved.</small>
 				</div>
-			
+
 			</div>
 		</div>
 	</footer><!-- #colophon -->

@@ -25,7 +25,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'caped' ); ?></a>
 
 	<header id="masthead" class="site-header fixed-top">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-3">
 					<div class="site-branding">
@@ -60,7 +60,7 @@
 								<span class="line-1"></span>
 								<span class="line-2"></span>
 								<span class="line-3"></span>
-							</span>							
+							</span>
 						</div>
 				</div>
 			</div>
