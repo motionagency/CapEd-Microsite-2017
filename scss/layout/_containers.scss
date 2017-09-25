@@ -41,6 +41,12 @@
 
 .three {
 	background-color: $purple;
+	margin-bottom: 10px;
+
+	.wrap {
+		max-width: 570px;
+		margin-right: 40px;
+	}
 
 	.col-full-image-right.col-md-6 {
 		padding-right: 0px;
@@ -55,6 +61,11 @@
 
 .four {
 	background-color: $blue;
+
+	.wrap {
+		max-width: 570px;
+		margin-left: 40px;
+	}
 
 	.col-full-image-left.col-md-6 {
 		padding-right: 0px;

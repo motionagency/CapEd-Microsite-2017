@@ -104,59 +104,63 @@ Template Name: CapEd Home Template
 <section class="two">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<img class="bubble-icon" src="<?php echo esc_url( get_template_directory_uri() );?>/images/thought_bubble_icon.svg" alt="">
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-7">
 				<h2>How We're Different</h2>
 				<p>Learning should a be transformative journey, filled with unique discoveries and rewards. Online learning is no exception, which is why CapEd does things differently. We don’t deliver educational resources off the shelf. Instead, we’ll partner with you on a journey that belongs only to you, and enriches your primary constituent, either in a learning environment or on the job.</p>
 
 				<p>Our consultative approach helps us thoroughly
 				understand your aspirations, opportunities and challenges. We will passionately invest in customized solutions that
 				reflect your vision and achieve your goals. Most important, we’ll help you inspire your students to dream bigger dreams and achieve extraordinary success.</p>
-				<a class="button-clear" href="#">see how we do it</a>
+				<a class="button-clear" href="#">see how we do it</a>					
 			</div>
 		</div>
 	</div>
 </section>
 
+<!-- Colleges and Universities -->
 <section class="three">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6">
+	<!-- <div class="container-fluid"> -->
+		<div class="row no-gutters">
+			<div class="col-lg-6 d-flex align-items-center justify-content-end">
 				<div class="wrap">
 					<h2>For Colleges &amp; Universities</h2>
 					<p>The CapEd mission is to help institutions be more successful serving the post-traditional learner. We are inspired by organizations willing to embrace change and adapt their vision. Our collaboration will help your institution preserve its uniqueness, build a stronger financial future, and elevate your achievements in higher education.</p>
 					<a class="button-white" href="#">learn more</a>
 				</div>
 			</div>
-			<div class="col-full-image-right col-md-6">
+			<div class="col-lg-6">
 				<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/asian_man@2x.png" alt="Student working at desk">
 			</div>				
 		</div>
-	</div>
+	<!-- </div> -->
 </section>
+<!-- For Business -->
 <section class="four">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6 col-full-image-left">
+	<!-- <div class="container-fluid"> -->
+		<div class="row no-gutters">
+			<div class="col-lg-6 order-2 order-lg-1">
 				<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/teacher@2x.png" alt="Student working at desk">
 			</div>
-			<div class="col-md-6">
-				<h2>For Businesses</h2>
-				<p>Our Connect™ initiative provides businesses and organizations with exceptional access to university-level knowledge, resources and cutting-edge research. The CapEd partnering model applies best practices in learning to help you attract and retain talented employees, and maximize return on investment.</p>
-				<a class="button-white" href="#">learn more</a>
+			<div class="col-lg-6 order-1 order-lg-2 d-flex align-items-center justify-content-start">
+				<div class="wrap">
+					<h2>For Businesses</h2>
+					<p>Our Connect™ initiative provides businesses and organizations with exceptional access to university-level knowledge, resources and cutting-edge research. The CapEd partnering model applies best practices in learning to help you attract and retain talented employees, and maximize return on investment.</p>
+					<a class="button-white" href="#">learn more</a>			
+				</div>
 			</div>
 		</div>
-	</div>
+	<!-- </div> -->
 </section>
 <section class="five">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<img class="lightbulb-icon" src="<?php echo esc_url(get_template_directory_uri() );?>/images/lightbulb_icon.svg" alt="Lightbulb icon">
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-7">
 				<h2>Bringing Deep Expertise</h2>
 				<h3>Our CapEd Leadership Team</h3>
 				<p>We have a unique perspective gleaned from our team's 100+ years of higher education experience. Let our cumulative knowledge help you achieve your goals. Let's Talk!</p>
