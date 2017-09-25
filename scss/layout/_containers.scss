@@ -103,3 +103,58 @@
 	}
 
 }
+
+// Leadership Team Template
+.leadership-intro {
+	height: 500px;
+
+	.lightbulb-icon {
+		width: 308px;
+		height: 301px;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+.leadership-image {
+	background-image: url('../images/intro-background@2x.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 500px;
+}
+
+.leadership-heading {
+	background-color: $grey;
+	height: 182px;
+}
+
+.leadership-team {
+	padding-top: 4.6875em;
+
+	.row {
+		padding-bottom: 5.3125em;
+	}
+
+	.content {
+		h1, h2, h3, h4, h5, h6, p {
+			font-family: AvenirLTStd-Book;
+			font-size: 1.25em; // Avenir 45 Book 20px
+			color: $bodyCopy;
+		}
+	}
+}
+
+.ready-to-talk {
+	background-color: $blue;
+
+	.wrap {
+		text-align: center;
+
+		h2, h3, {
+			color: $white;
+		}
+	}
+}
+
+
