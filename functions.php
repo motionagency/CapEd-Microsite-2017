@@ -131,6 +131,8 @@ function caped_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
+	wp_enqueue_script( 'countUp', get_template_directory_uri() . '/js/countUp.js', array('jquery'), '1.0', true );
+	wp_enqueue_script( 'inview', get_template_directory_uri() . '/js/inview_script.js', array('jquery'), '1.0', true );
 	wp_enqueue_script( 'caped-script', get_template_directory_uri() . '/js/script.js', array('jquery'), '1.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'caped_scripts' );

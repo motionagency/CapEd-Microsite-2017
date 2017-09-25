@@ -121,12 +121,14 @@ Template Name: CapEd Home Template
 <section class="three">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-6">
-				<h2>For Colleges &amp; Universities</h2>
-				<p>The CapEd mission is to help institutions be more successful serving the post-traditional learner. We are inspired by organizations willing to embrace change and adapt their vision. Our collaboration will help your institution preserve its uniqueness, build a stronger financial future, and elevate your achievements in higher education.</p>
-				<a class="button" href="#">learn more</a>
+			<div class="col-md-6">
+				<div class="wrap">
+					<h2>For Colleges &amp; Universities</h2>
+					<p>The CapEd mission is to help institutions be more successful serving the post-traditional learner. We are inspired by organizations willing to embrace change and adapt their vision. Our collaboration will help your institution preserve its uniqueness, build a stronger financial future, and elevate your achievements in higher education.</p>
+					<a class="button" href="#">learn more</a>
+				</div>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-md-6">
 				<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/asian_man@2x.png" alt="Student working at desk">
 			</div>
 		</div>
@@ -135,10 +137,10 @@ Template Name: CapEd Home Template
 <section class="four">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-md-6">
 				<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/teacher@2x.png" alt="Student working at desk">
 			</div>
-			<div class="col-sm-6">
+			<div class="col-md-6">
 				<h2>For Businesses</h2>
 				<p>Our Connect™ initiative provides businesses and organizations with exceptional access to university-level knowledge, resources and cutting-edge research. The CapEd partnering model applies best practices in learning to help you attract and retain talented employees, and maximize return on investment.</p>
 				<a class="button" href="#">learn more</a>
@@ -149,10 +151,10 @@ Template Name: CapEd Home Template
 <section class="five">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-md-6">
 				<img src="<?php echo esc_url(get_template_directory_uri() );?>/images/lightbulb_icon.svg" alt="Lightbulb icon">
 			</div>
-			<div class="col-sm-6">
+			<div class="col-md-6">
 				<h2>Bringing Deep Expertise</h2>
 				<h3>Our CapEd Leadership Team</h3>
 				<p>We have a unique perspective gleaned from our team's 100+ years of higher education experience. Let our cumulative knowledge help you achieve your goals. Let's Talk!</p>
@@ -168,18 +170,18 @@ Template Name: CapEd Home Template
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<p class="numbers">21%+</p>
+				<p class="numbers"><span id="counter_00"></span>%+</p>
 				<h3>Growth</h3>
 				<p>Bi-Annual Growth Rate for Partner Campuses</p>
 			</div>
 			<div class="col-md-4">
-				<p class="numbers">490%</p>
+				<p class="numbers"><span id="counter_01"></span>%</p>
 				<h3>Enrollment Growth</h3>
 				<p>CapEd Enrollment Growth
 				Rate, 2013-2017</p>
 			</div>
 			<div class="col-md-4">
-				<p class="numbers">40%</p>
+				<p class="numbers"><span id="counter_02"></span>%</p>
 				<h3>Conversion</h3>
 				<p>Prospect-to-Applicant
 				Conversion Rate</p>
