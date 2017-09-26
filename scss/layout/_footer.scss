@@ -40,6 +40,7 @@ footer {
 			padding-right: 15px;
 
 			a {
+				font-family: AvenirLTStd-Heavy;
 				font-size: 0.9375rem;
 				color: $blue;
 			}
@@ -57,7 +58,7 @@ footer {
 		@include responsive(max-width, 1024px) {
 			text-align: center;
 		}
-		
+
 		li {
 			display: inline;
 			a {
@@ -68,8 +69,10 @@ footer {
 }
 
 
-// Copyright 
+// Copyright
 .copyright {
-	text-align : center; 
+	font-family: AvenirLTStd-Heavy;
+	color: $blue;
+	text-align : center;
 	display: block;
 }

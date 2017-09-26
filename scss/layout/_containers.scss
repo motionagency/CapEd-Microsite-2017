@@ -6,9 +6,40 @@
 	background-size: cover;
 	margin-bottom: -0.5em;
 
+
 	.hero-wrap {
-		padding: 200px 0 100px 0;
+		padding: 80px 0 100px 0;
+
+		@include responsive(min-width, 600px) {
+			padding: 200px 0 100px 0;
+		}
+
+		h1 {
+			font-size: 2.5em;
+
+			@include responsive(min-width, 600px) {
+				font-size: 4.375em;
+		}
+
 	}
+
+		h3 {
+			display: none;
+
+			@include responsive(min-width, 600px) {
+				display: block;
+			}
+		}
+
+		.button-clear {
+			display: none;
+
+			@include responsive(min-width, 600px) {
+				display: inline-block;
+			}
+		}
+}
+
 }
 
 .one {
@@ -18,25 +49,53 @@
 	.wrap {
 		max-width: 740px;
 		margin: 0 auto;
-		padding: 55px 0 0 0;
+		padding: 25px 0 0 0;
 
-		p {
-			font-family: Museo-300;
-			font-size: 2.25em;
-			color: $grey;
+		@include responsive(min-width, 600px) {
+			padding: 55px 0 0 0;
+		}
+
+		h5 {
+			font-size: 1.25em;
+			// font-family: Museo-300;
+			// font-size: 1.25em;
+			// color: $grey;
+
+			@include responsive(min-width, 600px) {
+				font-size: 2.25em;
+			}
 		}
 	}
 }
 
 .two {
-	padding: 100px 0 100px 0;
+	padding: 40px 0 60px 0;
+
+	@include responsive(min-width, 600px) {
+		padding: 100px 0 100px 0;
+	}
+
+	h2 {
+		font-size: 2.1875em;
+
+		@include responsive(min-width, 600px) {
+			font-size: 2.8125em;
+		}
+	}
 
 	.bubble-icon {
-		width: 352px;
-		height: 285px;
+		width: 168px;
+		height: 132px;
 		margin: 0 auto;
+		margin-bottom: 40px;
 		display: block;
+
+		@include responsive(min-width, 600px) {
+			width: 352px;
+			height: 285px;
+		}
 	}
+
 }
 
 .three {
@@ -44,17 +103,27 @@
 	margin-bottom: 10px;
 
 	.wrap {
+		padding: 50px 20px 50px 20px;
 		max-width: 570px;
 		margin-right: 40px;
-	}
 
-	.col-full-image-right.col-md-6 {
-		padding-right: 0px;
-		padding-left: 0px;			
-	}		
+		h2 {
+			color: $white;
+			font-size: 2.1875em;
 
-	h2, p {
-		color: $white;
+			@include responsive(min-width, 600px) {
+				font-size: 2.8125em;
+			}
+		}
+
+		p {
+			color: $white;
+			font-size: 1.125em;
+
+			@include responsive(min-width, 600px) {
+				font-size: 1.25em;
+			}
+		}
 	}
 
 }
@@ -69,7 +138,7 @@
 
 	.col-full-image-left.col-md-6 {
 		padding-right: 0px;
-		padding-left: 0px;	
+		padding-left: 0px;
 	}
 
 	h2, p {
@@ -78,13 +147,23 @@
 }
 
 .five {
-	padding: 100px 0 50px 0;
+	padding: 40px 0 60px 0;
+
+	@include responsive(min-width, 600px) {
+		padding: 100px 0 50px 0;
+	}
 
 	.lightbulb-icon {
-		width: 308px;
-		height: 301px;
+		width: 157px;
+		height: 156px;
 		margin: 0 auto;
+		margin-bottom: 40px;
 		display: block;
+
+		@include responsive(min-width, 600px) {
+			width: 308px;
+			height: 301px;
+		}
 	}
 }
 
@@ -106,7 +185,11 @@
 
 // Leadership Team Template
 .leadership-intro {
-	height: 500px;
+	height: auto;
+
+	@include responsive(min-width, 600px) {
+		height: 500px;
+	}
 
 	.lightbulb-icon {
 		width: 308px;
@@ -120,8 +203,13 @@
 	background-image: url('../images/intro-background@2x.png');
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: cover;
-	height: 500px;
+	background-size: contain;
+	height: 300px;
+
+	@include responsive(min-width, 600px) {
+		background-size: cover;
+		height: 500px;
+	}
 }
 
 .leadership-heading {
@@ -150,6 +238,11 @@
 
 	.wrap {
 		text-align: center;
+		padding: 50px 0 50px 0;
+
+		@include responsive(min-width, 992px) {
+			padding: 0;
+		}
 
 		h2, h3, {
 			color: $white;
@@ -157,4 +250,55 @@
 	}
 }
 
+// What we do page
+.nav-pills .nav-link.active, .show >.nav-pills .nav-link {
+	background-color: $red;
+}
 
+.nav-pills .nav-link {
+	border-radius: 0;
+}
+
+.what-we-do-tabs {
+	nav {
+		a {
+			font-family: Museo-300Italic;
+			height: 145px;
+			background-color: $grey;
+			color: $blue;
+			font-size: 1.875em;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-right: 10px solid $white;
+
+			@include responsive(max-width, 1122px) {
+				border-right: none;
+				font-size: 1.25em;
+			}
+
+			@include responsive(max-width, 800px) {
+				font-size: 1em;
+			}
+
+			@include responsive(max-width, 768px) {
+				height: 50px;
+			}
+
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+}
+
+.tab-content {
+	padding: 50px 0 30px 0;
+
+	.tab-icon {
+		width: 377px;
+		height: 377px;
+		display: block;
+		margin: 0 auto;
+	}
+}

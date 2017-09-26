@@ -17,8 +17,9 @@ Template Name: CapEd Home Template
 				<div class="hero-wrap">
 					<h1>Re-Imagining</h1>
 					<h1>Online Learning</h1>
+					<h1>With You</h1>
 					<h3>A unique approach to post-traditional learning.</h3>
-					<a class="button-clear" href="#">learn more</a>	
+					<a class="button-clear" href="#">learn more</a>
 				</div>
 			</div>
 		</div>
@@ -47,7 +48,7 @@ Template Name: CapEd Home Template
 		<div class="row">
 			<div class="col-12">
 				<div class="wrap">
-					<h5>We don't deliver courses off the shelf. Instead, we'll partner with you on a journey that belong <span class="span-red">only to you.</span></h5>					
+					<h5>We don't deliver courses off the shelf. Instead, we'll partner with you on a journey that belong <span class="span-red">only to you.</span></h5>
 				</div>
 			</div>
 		</div>
@@ -104,17 +105,17 @@ Template Name: CapEd Home Template
 <section class="two">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5">
+			<div class="col-lg-5">
 				<img class="bubble-icon" src="<?php echo esc_url( get_template_directory_uri() );?>/images/thought_bubble_icon.svg" alt="">
 			</div>
-			<div class="col-md-7">
+			<div class="col-lg-7">
 				<h2>How We're Different</h2>
 				<p>Learning should a be transformative journey, filled with unique discoveries and rewards. Online learning is no exception, which is why CapEd does things differently. We don’t deliver educational resources off the shelf. Instead, we’ll partner with you on a journey that belongs only to you, and enriches your primary constituent, either in a learning environment or on the job.</p>
 
 				<p>Our consultative approach helps us thoroughly
 				understand your aspirations, opportunities and challenges. We will passionately invest in customized solutions that
 				reflect your vision and achieve your goals. Most important, we’ll help you inspire your students to dream bigger dreams and achieve extraordinary success.</p>
-				<a class="button-clear" href="#">see how we do it</a>					
+				<a class="button-clear" href="#">see how we do it</a>
 			</div>
 		</div>
 	</div>
@@ -133,7 +134,7 @@ Template Name: CapEd Home Template
 			</div>
 			<div class="col-lg-6">
 				<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/asian_man@2x.png" alt="Student working at desk">
-			</div>				
+			</div>
 		</div>
 	<!-- </div> -->
 </section>
@@ -148,7 +149,7 @@ Template Name: CapEd Home Template
 				<div class="wrap">
 					<h2>For Businesses</h2>
 					<p>Our Connect™ initiative provides businesses and organizations with exceptional access to university-level knowledge, resources and cutting-edge research. The CapEd partnering model applies best practices in learning to help you attract and retain talented employees, and maximize return on investment.</p>
-					<a class="button-white" href="#">learn more</a>			
+					<a class="button-white" href="#">learn more</a>
 				</div>
 			</div>
 		</div>
@@ -157,10 +158,10 @@ Template Name: CapEd Home Template
 <section class="five">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5">
+			<div class="col-lg-5">
 				<img class="lightbulb-icon" src="<?php echo esc_url(get_template_directory_uri() );?>/images/lightbulb_icon.svg" alt="Lightbulb icon">
 			</div>
-			<div class="col-md-7">
+			<div class="col-lg-7">
 				<h2>Bringing Deep Expertise</h2>
 				<h3>Our CapEd Leadership Team</h3>
 				<p>We have a unique perspective gleaned from our team's 100+ years of higher education experience. Let our cumulative knowledge help you achieve your goals. Let's Talk!</p>
@@ -175,27 +176,27 @@ Template Name: CapEd Home Template
 <section class="six">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="counter-wrap">
 					<p class="numbers"><span id="counter_00"></span>%+</p>
 					<h3>Growth</h3>
-					<p>Bi-Annual Growth Rate for Partner Campuses</p>					
+					<p>Bi-Annual Growth Rate for Partner Campuses</p>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="counter-wrap">
 					<p class="numbers"><span id="counter_01"></span>%</p>
 					<h3>Enrollment Growth</h3>
 					<p>CapEd Enrollment Growth
-					Rate, 2013-2017</p>					
+					Rate, 2013-2017</p>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="counter-wrap">
 					<p class="numbers"><span id="counter_02"></span>%</p>
 					<h3>Conversion</h3>
 					<p>Prospect-to-Applicant
-					Conversion Rate</p>					
+					Conversion Rate</p>
 				</div>
 			</div>
 		</div>

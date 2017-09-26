@@ -6,6 +6,9 @@ jQuery(document).ready(function($){
 	// Remove class from images with .swoop
 	$('.swoop').removeClass('img-fluid');
 
+	// Tabs - show first
+	$('.nav a:first').tab('show')
+
 	// Toggle Mobile Navigation
 	$("span[class^='mobile-menu']").click(function() {
 		$(this).toggleClass('toggle');
