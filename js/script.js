@@ -7,7 +7,7 @@ jQuery(document).ready(function($){
 	$('.swoop').removeClass('img-fluid');
 
 	// Tabs - show first
-	$('.nav a:first').tab('show')
+	//$('.nav a:first').tab('show')
 
 	// Toggle Mobile Navigation
 	$("span[class^='mobile-menu']").click(function() {
