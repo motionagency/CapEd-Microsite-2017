@@ -6,6 +6,15 @@ jQuery(document).ready(function($){
 	// Remove class from images with .swoop
 	$('.swoop').removeClass('img-fluid');
 
+	//paste this code under the head tag or in a separate js file.
+	// Wait for window load
+	$(window).load(function() {
+
+	// Animate loader off screen
+	//	$(".se-pre-con").fadeOut("slow");
+	$('body').find(".se-pre-con").delay(500).fadeOut(1000);
+	});
+
 	// Tabs - show first
 	//$('.nav a:first').tab('show')
 

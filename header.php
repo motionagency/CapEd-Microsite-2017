@@ -24,6 +24,9 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'caped' ); ?></a>
 
+	<!-- Pre-loader gif container -->
+	<div class="se-pre-con"></div>
+
 	<header id="masthead" class="site-header fixed-top">
 		<div class="container-fluid">
 			<div class="row">
