@@ -11,7 +11,7 @@
 		padding: 80px 0 100px 0;
 
 		@include responsive(min-width, 600px) {
-			padding: 200px 0 100px 0;
+			padding: 130px 0 100px 0;
 		}
 	//
 	// 	h1 {
@@ -84,16 +84,16 @@
 	}
 
 	.bubble-icon {
-		width: 168px;
-		height: 132px;
-		margin: 0 auto;
+		// width: 168px;
+		// height: 132px;
+		// margin: 0 auto;
 		margin-bottom: 40px;
 		display: block;
 
-		@include responsive(min-width, 600px) {
-			width: 352px;
-			height: 285px;
-		}
+		// @include responsive(min-width, 600px) {
+		// 	width: 352px;
+		// 	height: 285px;
+		// }
 	}
 
 }
@@ -170,13 +170,30 @@
 	text-align: center;
 	padding-bottom: 30px;
 
+	.numbers {
+		margin-bottom: -5px;
+		color: $grey;
+	}
+
 	.counter-wrap {
 		padding: 30px;
 	}
 
-	h3, p {
-		color: $white;
+	h3 {
+		color: $grey;
 		margin-bottom: 0;
+	}
+
+	p {
+		color: $grey;
+		line-height: inherit;
+	}
+
+	.red-line {
+		display: block;
+		margin: 15px auto 15px auto;
+		width: 80px;
+		height: 3px;
 	}
 
 }
@@ -424,5 +441,12 @@
 	.wrap {
 		padding-top: 154px;
 		max-width: 820px;
+	}
+
+	.mail-icon {
+		width: 312px;
+		height: 258px;
+		margin: 0 auto;
+		display: block;
 	}
 }

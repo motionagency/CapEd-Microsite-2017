@@ -21,7 +21,7 @@ Template Name: Contact Us Template
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-7">
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
             <p><?php the_content(); ?></p>
@@ -33,11 +33,21 @@ Template Name: Contact Us Template
 
           <?php endif; ?>
         </div>
-        <div class="col-md-4">
-          <img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/contact-mail-icon.svg" alt="Capital Education Mail Icon">
+        <div class="col-md-5">
+          <img class="mail-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/contact-mail-icon.svg" alt="Capital Education Mail Icon">
         </div>
       </div>
     </div>
   </section>
+
+  <script>
+    var templateUrl = '<?= esc_url(home_url()); ?>';
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    //location =  templateUrl + '/thank-you/';
+    alert("this is awesome!!");
+}, false );
+
+   // console.log('template_Url');
+</script>
 
 <?php get_footer(); ?>

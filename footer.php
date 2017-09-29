@@ -16,10 +16,10 @@
 	<footer id="colophon" class="site-footer">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-2 caped-footer-logo">
+				<div class="col-lg-3 caped-footer-logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="swoop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/caped-logo.svg" alt="Capital Education"></a>
 				</div>
-				<div class="col-lg-8">
+				<div class="col-lg-6">
 					<nav class="footer-navigation">
 						<?php
 							wp_nav_menu( array(
@@ -29,7 +29,7 @@
 						?>
 					</nav>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-lg-3">
 					<div class="social-media">
 						<ul>
 							<li><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></li>

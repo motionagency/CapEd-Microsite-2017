@@ -1,0 +1,114 @@
+// Contact Form 7 
+
+#left {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+ 
+#right {
+    width: 49%;
+    float: left;
+}
+ 
+.clearfix:after {
+    content:"\0020";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+ 
+.clearfix {
+    display:block;
+}
+
+span.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 0;
+    color: $bodyCopy;
+}
+
+.wpcf7-form select {
+
+}
+
+.wpcf7  {
+
+	select {
+		height: 65px;
+		width: 100%;
+		background-color: transparent;
+		border: 2px solid $blue;
+		border-radius: 0px !important;
+		-webkit-border-radius: 0 !important;
+		padding: 15px;
+	}
+
+	input[placeholder="First Name"],
+	input[placeholder="Last Name"],
+	input[placeholder="Email Address"],
+	input[placeholder="Phone Number"], {
+		width: 100%;
+		padding: 15px;
+		border: 2px solid $blue;
+	}
+
+	label {
+		width: 100%;
+	}
+
+	input[type="text"] {
+		font-family: AvenirLTStd-Book;
+		color: $blue;
+		font-size: 1rem;
+	}
+
+	select {
+		font-family: AvenirLTStd-Book;
+		color: $blue;
+		font-size: 1rem;
+	}
+
+	textarea {
+		font-family: AvenirLTStd-Book;
+		color: $blue;
+		font-size: 1rem;	
+		width: 100%;
+		border: 2px solid $blue;
+		padding: 15px;
+	}
+
+	::placeholder {
+		font-family: AvenirLTStd-Book;
+		color: $blue;
+		font-size: 1rem;
+	}
+
+}
+
+
+.wpcf7 input[type="submit"] {
+	font-family: AvenirLTStd-Heavy, sans-serif, Arial;
+	width: 167px;
+	background-color: transparent;
+	font-size: 0.9375rem;
+    line-height: 20px;
+    color: $purple;
+    display: inline-block;
+	border: 3px solid $purple;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 14px 25px 10px 25px;
+    margin: 15px 0 15px 0;
+    transition: linear .2s;
+
+    &:hover {
+    	text-decoration: none;
+    	background-color: $purple;
+    	color: $white;
+    	cursor: pointer;
+    }
+}

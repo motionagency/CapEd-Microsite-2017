@@ -1,3 +1,5 @@
+//Buttons
+
 .button-clear {
 	font-family: AvenirLTStd-Heavy, sans-serif, Arial;
 	font-size: 0.9375em;
@@ -9,6 +11,8 @@
     text-transform: uppercase;
     padding: 14px 25px 10px 25px;
     margin: 15px 0 15px 0;
+    transition: linear .2s;
+
 
 
     &:hover {
@@ -30,6 +34,7 @@
     text-transform: uppercase;
     padding: 14px 25px 10px 25px;
     margin: 15px 0 15px 0;
+    transition: linear .2s;
 
 
     &:hover {
@@ -46,26 +51,26 @@ $animation-speed: 0.3s;
 // -- MOBILE MENU -- //
 .mobile-menu {
 	transition: transform $animation-speed;
-	
+
 	.line-1 {
 		border-top: 3px solid #000;
 		display: block;
 		transition: margin $animation-speed, transform $animation-speed;
 		width: 50px;
 	}
-	
+
 	.line-2 {
 		@extend .line-1;
 		margin: 10px 0;
 	}
-	
+
 	.line-3 {
 		@extend .line-1;
 	}
-	
+
 	&.toggle {
 		padding: 45px 0;
-		
+
 		.line-1 {
 			transform: rotate(45deg);
 		}
@@ -80,37 +85,37 @@ $animation-speed: 0.3s;
 		}
 
 	}
-	
+
 }
 
 // -- MOBILE MENU 2 -- //
 .mobile-menu-2 {
 	@extend .mobile-menu;
-	
+
 	&.toggle {
 		transform: rotateX(180deg);
 	}
-	
+
 }
 
 // -- MOBILE MENU 3 -- //
 .mobile-menu-3 {
 	@extend .mobile-menu;
-	
+
 	&.toggle {
 		transform: rotateY(180deg);
 	}
-	
+
 }
 
 // -- MOBILE MENU 4 -- //
 .mobile-menu-4 {
 	@extend .mobile-menu;
-	
+
 	&.toggle {
 		transform: rotate(90deg);
 	}
-	
+
 }
 
 // -- MOBILE MENU 5 -- //
@@ -118,11 +123,11 @@ $animation-speed: 0.3s;
 	padding: 35px 0;
 
 	@extend .mobile-menu;
-	
+
 	&.toggle {
 		transform: rotate(180deg);
 	}
-	
+
 }
 
 .mobile-menu-wrap {
@@ -131,4 +136,3 @@ $animation-speed: 0.3s;
 	// top: 25px;
 	top: -7px;
 }
-
