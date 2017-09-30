@@ -10,6 +10,27 @@ Template Name: Contact Us Template
 
 <?php get_header(); ?>
 
+<!-- Modal -->
+<div class="modal fade" id="caped-contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
   <section class="contact-us">
     <div class="container">
       <div class="row">
@@ -41,13 +62,14 @@ Template Name: Contact Us Template
   </section>
 
   <script>
-    var templateUrl = '<?= esc_url(home_url()); ?>';
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-    //location =  templateUrl + '/thank-you/';
-    alert("this is awesome!!");
-}, false );
-
-   // console.log('template_Url');
-</script>
+      var templateUrl = '<?= esc_url(home_url()); ?>';
+      document.addEventListener( 'wpcf7mailsent', function( event ) {
+      //location =  templateUrl + '/thank-you/';
+      //  alert("this is awesome!!");
+      jQuery('#caped-contact-modal').modal({
+        show: true
+      })
+    }, false );
+  </script>
 
 <?php get_footer(); ?>
