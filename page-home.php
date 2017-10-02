@@ -106,7 +106,7 @@ Template Name: CapEd Home Template
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
-				<img class="bubble-icon" src="<?php echo esc_url( get_template_directory_uri() );?>/images/infographic.gif" alt="">
+				<img class="bubble-icon" src="<?php echo esc_url( get_template_directory_uri() );?>/images/infographic_final.gif" alt="">
 			</div>
 			<div class="col-lg-6">
 				<h2>How We're Different</h2>

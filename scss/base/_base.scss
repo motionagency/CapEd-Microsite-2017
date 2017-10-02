@@ -30,3 +30,9 @@ if it's not present, don't show loader */
 	z-index: 9999;
 	background: url(../images/page_load_6.gif) center no-repeat #fff;
 }
+
+sup {
+	vertical-align: super;
+    margin: .5rem;
+    font-size: 1rem;
+}

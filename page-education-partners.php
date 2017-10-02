@@ -52,7 +52,7 @@ Template Name: Education Partners Template
 <section class="info-one">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 icon-center">
 				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/three-people-icon.svg" alt="CapEd Education Partners">
 			</div>
 			<div class="col-md-6">
@@ -102,7 +102,7 @@ Template Name: Education Partners Template
 
 				<p>When we’re finished, your ability to attract and engage post-traditional learners will be transformed. Together, we will realize our shared mission to equip graduates to thrive as professionals and make a positive impact in their communities.</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 icon-center">
 				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/three-people-icon.svg" alt="Three people icon">
 			</div>
 		</div>

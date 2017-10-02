@@ -203,16 +203,22 @@
 	height: auto;
 
 	@include responsive(min-width, 992px) {
-		height: 500px;
+		height: 460px;
 	}
 
-	.lightbulb-icon {
-		width: 308px;
-		height: 301px;
+	.three-peeps-icon {
+		width: 307px;
+		height: 257px;
 		margin: 0 auto;
 		display: block;
 		margin-bottom: 50px;
+
+		@include responsive(min-width, 992px) {
+			margin-bottom: 0;
+		}
 	}
+
+
 }
 
 .leadership-image {
@@ -343,6 +349,40 @@
 		display: flex;
 		align-items: center;
 	}
+
+	.icon-center {
+		@include responsive(min-width, 992px) {
+			display: flex;
+			align-items: center;
+		}
+	}
+	
+
+	.three-peeps-icon {
+		display: block;
+		width: 257px;
+		height: 257px;
+		margin: 0 auto;
+	}
+
+}
+
+.info-one-caped-connect {
+	height: auto;
+	padding: 50px 0 50px 0;
+
+	@include responsive(min-width, 992px) {
+		height: 667px;
+		display: flex;
+		align-items: center;
+	}
+
+	.icon-center {
+		@include responsive(min-width, 992px) {
+			display: flex;
+			align-items: center;
+		}
+	}
 	
 
 	.three-peeps-icon {
@@ -361,6 +401,13 @@
 		height: 456px;
 		display: flex;
 		align-items: center;
+	}
+
+	.icon-center {
+		@include responsive(min-width, 992px) {
+			display: flex;
+			align-items: center;
+		}
 	}
 	
 
@@ -412,11 +459,32 @@
 	}
 }
 
-.education-partners-intro,
-.caped-connect-intro {
+.education-partners-intro {
 
 	.wrap-one {
 		max-width: 725px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.hero-redline {
+		margin: 25px auto 30px auto;
+		display: block;
+		width: 200px;
+	}
+
+	.wrap-two {
+		max-width: 755px;
+		margin: 0 auto 80px auto;
+		text-align: center;
+	}
+
+}
+
+.caped-connect-intro {
+
+	.wrap-one {
+		max-width: 675px;
 		margin: 0 auto;
 		text-align: center;
 	}
@@ -439,8 +507,8 @@
 
 	li {
 		font-family: AvenirLTStd-Heavy;
-		font-size: 1.375em; // Avenir 85 Heavy 22px
-		color: $purple;
+		font-size: 1.25em; // Avenir 85 Heavy 22px
+		color: $blue;
 	}
 
 }
@@ -460,7 +528,7 @@
 			padding: 0;
 		}
 
-		h2 {
+		h2, p {
 			color: $white;
 		}
 	}
@@ -478,7 +546,7 @@
 			padding: 0;
 		}
 
-		h2 {
+		h2, p {
 			color: $white;
 		}
 	}
@@ -490,6 +558,8 @@
 // 	height: 257px;
 // }
 
+
+// Quote block purple
 .quote-block-purple {
 	height: auto;
 	padding: 50px 0 50px 0;
@@ -513,6 +583,35 @@
 		height: 64px;
 
 	}
+}
+
+// Quote block blue
+.quote-block-blue {
+	height: auto;
+	padding: 50px 0 50px 0;
+	background-color: $blue;
+	color: $white;
+
+	@include responsive(min-width, 600px) {
+		height: 160px;
+		display: flex;
+		align-items: center;
+		padding: 0 0 0 0;
+	}
+
+	.wrap {
+		max-width: 800px;
+
+		h2 {
+			color: $white;
+		}
+	}
+
+	svg {
+		width: 81px;
+		height: 64px;
+	}
+
 }
 
 

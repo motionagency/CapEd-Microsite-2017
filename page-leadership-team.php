@@ -18,7 +18,7 @@ Template Name: Leadership Team Template
 				<p>The people of CapEd have the experience, expertise, and knowledge required to bring a post-traditional learning experience from concept to reality. From strategy development through program delivery, our leadership team brings deep expertise to every partnership we establish with colleges and universities or businesses.</p>
 			</div>
 			<div class="col-md-5">
-				<img class="lightbulb-icon" src="<?php echo esc_url(get_template_directory_uri() );?>/images/lightbulb_icon.svg" alt="Lightbulb icon">
+				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/three-people-icon.svg" alt="CapEd Education Partners">
 			</div>
 		</div>
 	</div>
