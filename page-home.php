@@ -165,7 +165,7 @@ Template Name: CapEd Home Template
 				<h2>Bringing Deep Expertise</h2>
 				<h3>Our CapEd Leadership Team</h3>
 				<p>We have a unique perspective gleaned from our team's 100+ years of higher education experience. Let our cumulative knowledge help you achieve your goals. Let's Talk!</p>
-				<a class="button-clear" href="#">meet the team</a>
+				<a class="button-clear" href="/caped/leadership-team/">meet the team</a>
 			</div>
 		</div>
 	</div>

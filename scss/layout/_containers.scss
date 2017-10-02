@@ -334,11 +334,41 @@
 
 // Info section
 
+.info-one {
+	height: auto;
+	padding: 50px 0 50px 0;
+
+	@include responsive(min-width, 992px) {
+		height: 560px;
+		display: flex;
+		align-items: center;
+	}
+	
+
+	.three-peeps-icon {
+		display: block;
+		width: 257px;
+		height: 257px;
+		margin: 0 auto;
+	}
+
+}
+
 .info {
 	padding: 50px 0 50px 0;
 
-	@include responsive(min-width, 600px) {
-		padding: 75px 0 75px 0;
+	@include responsive(min-width, 992px) {
+		height: 456px;
+		display: flex;
+		align-items: center;
+	}
+	
+
+	.three-peeps-icon {
+		display: block;
+		width: 257px;
+		height: 257px;
+		margin: 0 auto;
 	}
 }
 
@@ -376,14 +406,33 @@
 	}
 
 	@include responsive(min-width, 600px) {
-		padding: 25px 0 25px 0;
-		height: 350px;
+		margin-top: 50px;
+		padding: 25px 0 0 0;
+		height: 300px;
 	}
 }
 
 .education-partners-intro,
 .caped-connect-intro {
-	padding-bottom: 55px;
+
+	.wrap-one {
+		max-width: 725px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.hero-redline {
+		margin: 25px auto 30px auto;
+		display: block;
+		width: 200px;
+	}
+
+	.wrap-two {
+		max-width: 755px;
+		margin: 0 auto 80px auto;
+		text-align: center;
+	}
+
 }
 
 .fa-ul {
@@ -435,6 +484,37 @@
 	}
 }
 
+// .three-peeps-icon {
+// 	display: block;
+// 	width: 257px;
+// 	height: 257px;
+// }
+
+.quote-block-purple {
+	height: auto;
+	padding: 50px 0 50px 0;
+	background-color: $purple;
+	color: $white;
+
+	@include responsive(min-width, 600px) {
+		height: 160px;
+		display: flex;
+		align-items: center;
+		padding: 0 0 0 0;
+	}
+
+
+	h2 {
+		color: $white;
+	}
+
+	svg {
+		width: 81px;
+		height: 64px;
+
+	}
+}
+
 
 // Contact Us template
 .contact-us {
@@ -448,5 +528,18 @@
 		height: 258px;
 		margin: 0 auto;
 		display: block;
+	}
+}
+
+.contact-modal {
+	.wrap {
+		text-align: center;
+		max-width: 600px;
+		margin: 0 auto;
+
+		h2, h3 {
+			margin-bottom: 46px;
+		}
+
 	}
 }

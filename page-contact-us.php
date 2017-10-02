@@ -10,27 +10,32 @@ Template Name: Contact Us Template
 
 <?php get_header(); ?>
 
-<!-- Modal -->
-<div class="modal fade" id="caped-contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  <!-- Modal -->
+  <div class="modal fade" id="caped-contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body contact-modal">
+          <img class="paper-plane" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/paper-plane-contact.png" alt="Paper Plane">
+          <div class="wrap">
+            <h2>Your First Step toward Reaching New Heights</h2>
+            <h3>Thank you!</h3>
+          </div>
+        </div>
+
       </div>
     </div>
-  </div>
-</div>
 
+  </div>
+
+  
   <section class="contact-us">
     <div class="container">
       <div class="row">
