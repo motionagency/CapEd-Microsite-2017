@@ -203,12 +203,21 @@
 	height: auto;
 
 	@include responsive(min-width, 992px) {
-		height: 460px;
+		display: flex;
+		align-items: center;
+		height: 570px;
 	}
 
-	.three-peeps-icon {
-		width: 307px;
-		height: 257px;
+	.col-lg-5 {
+		@include responsive(min-width, 992px) {
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	.tab-icon {
+		width: 446.07px;
+		height: 285.57px;
 		margin: 0 auto;
 		display: block;
 		margin-bottom: 50px;
@@ -277,9 +286,24 @@
 }
 
 // What we do page
-.nav-pills .nav-link.active, .show >.nav-pills .nav-link {
+.nav-pills .nav-link.active.first {
 	background-color: $red;
-	//background-color: $blue;
+}
+
+.nav-pills .nav-link.active.second {
+	background-color: $purple;
+}
+
+.nav-pills .nav-link.active.third {
+	background-color: $green;
+}
+
+.nav-pills .nav-link.active.fourth {
+	background-color: $darkGrey;
+}
+
+.nav-pills .nav-link.active.fifth {
+	background-color: $blue;
 }
 
 .nav-pills .nav-link {
@@ -287,6 +311,13 @@
 }
 
 .what-we-do-tabs {
+
+	.tab-break {
+		@include responsive(max-width, 768px) {
+			display: none;
+		}
+	}
+
 	nav {
 		a {
 			font-family: Museo-300Italic;
@@ -302,9 +333,8 @@
 			line-height: 1;
 
 			&:hover {
-				color: $white;
-				color: $red;
-				//background-color: $red;
+				color: $purple;
+				//background-color: $darkGrey;
 			}
 
 			@include responsive(max-width, 1122px) {
@@ -328,7 +358,7 @@
 }
 
 .tab-content {
-	padding: 50px 0 30px 0;
+	padding: 63px 0 84px 0;
 
 	.tab-icon {
 		width: 377px;
@@ -356,7 +386,7 @@
 			align-items: center;
 		}
 	}
-	
+
 
 	.three-peeps-icon {
 		display: block;
@@ -383,7 +413,7 @@
 			align-items: center;
 		}
 	}
-	
+
 
 	.three-peeps-icon {
 		display: block;
@@ -409,7 +439,7 @@
 			align-items: center;
 		}
 	}
-	
+
 
 	.three-peeps-icon {
 		display: block;
