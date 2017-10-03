@@ -19,7 +19,17 @@ Template Name: CapEd Home Template
 					<h1>Online Learning</h1>
 					<h1>With You</h1>
 					<h3>A unique approach to post-traditional learning.</h3>
-					<a class="button-clear" href="#">learn more</a>
+
+					<?php
+
+						$heroButton = get_field('hero_button');
+
+						if( $heroButton ): ?>
+
+						<a class="button-clear" href="<?php echo $heroButton['url']; ?>" target="<?php echo $heroButton['target']; ?>"><?php echo $heroButton['title']; ?></a>
+
+					<?php endif; ?>
+
 				</div>
 			</div>
 		</div>
@@ -115,7 +125,16 @@ Template Name: CapEd Home Template
 				<p>Our consultative approach helps us thoroughly
 				understand your aspirations, opportunities and challenges. We will passionately invest in customized solutions that
 				reflect your vision and achieve your goals. Most important, we’ll help you inspire your students to dream bigger dreams and achieve extraordinary success.</p>
-				<a class="button-clear" href="#">see how we do it</a>
+
+				<?php
+
+					$sectionTwoButton = get_field('section_two_button');
+
+					if( $sectionTwoButton ): ?>
+
+					<a class="button-clear" href="<?php echo $sectionTwoButton['url']; ?>" target="<?php echo $sectionTwoButton['target']; ?>"><?php echo $sectionTwoButton['title']; ?></a>
+
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>
@@ -129,7 +148,16 @@ Template Name: CapEd Home Template
 				<div class="wrap">
 					<h2>For Colleges &amp; Universities</h2>
 					<p>The CapEd mission is to help institutions be more successful serving the post-traditional learner. We are inspired by organizations willing to embrace change and adapt their vision. Our collaboration will help your institution preserve its uniqueness, build a stronger financial future, and elevate your achievements in higher education.</p>
-					<a class="button-white" href="#">learn more</a>
+					<?php
+
+						$sectionThreeButton = get_field('section_three_button');
+
+						if( $sectionThreeButton ): ?>
+
+						<a class="button-white" href="<?php echo $sectionThreeButton['url']; ?>" target="<?php echo $sectionThreeButton['target']; ?>"><?php echo $sectionThreeButton['title']; ?></a>
+
+					<?php endif; ?>
+
 				</div>
 			</div>
 			<div class="col-lg-6">
@@ -149,7 +177,16 @@ Template Name: CapEd Home Template
 				<div class="wrap">
 					<h2>For Businesses</h2>
 					<p>Our Connect™ initiative provides businesses and organizations with exceptional access to university-level knowledge, resources and cutting-edge research. The CapEd partnering model applies best practices in learning to help you attract and retain talented employees, and maximize return on investment.</p>
-					<a class="button-white" href="#">learn more</a>
+
+					<?php
+
+						$sectionFourButton = get_field('section_four_button');
+
+						if( $sectionFourButton ): ?>
+
+						<a class="button-white" href="<?php echo $sectionFourButton['url']; ?>" target="<?php echo $sectionFourButton['target']; ?>"><?php echo $sectionFourButton['title']; ?></a>
+
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
@@ -165,7 +202,16 @@ Template Name: CapEd Home Template
 				<h2>Bringing Deep Expertise</h2>
 				<h3>Our CapEd Leadership Team</h3>
 				<p>We have a unique perspective gleaned from our team's 100+ years of higher education experience. Let our cumulative knowledge help you achieve your goals. Let's Talk!</p>
-				<a class="button-clear" href="/caped/leadership-team/">meet the team</a>
+
+				<?php
+
+					$sectionFiveButton = get_field('section_five_button');
+
+					if( $sectionFiveButton ): ?>
+
+					<a class="button-clear" href="<?php echo $sectionFiveButton['url']; ?>" target="<?php echo $sectionFiveButton['target']; ?>"><?php echo $sectionFiveButton['title']; ?></a>
+
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>

@@ -10,7 +10,7 @@ Template Name: Leadership Team Template
 
 <?php get_header(); ?>
 
-<section class="leadership-intro d-flex align-items-center">
+<section class="leadership-intro">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7">
@@ -30,7 +30,7 @@ Template Name: Leadership Team Template
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2>Nice to Meet You</h2>			
+				<h2>Nice to Meet You</h2>
 			</div>
 		</div>
 	</div>

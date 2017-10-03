@@ -205,13 +205,20 @@
 	@include responsive(min-width, 992px) {
 		display: flex;
 		align-items: center;
-		height: 570px;
+		height: 462px;
 	}
 
-	.col-lg-5 {
+	.col-md-5 {
 		@include responsive(min-width, 992px) {
 			display: flex;
 			align-items: center;
+		}
+
+		.three-peeps-icon {
+			width: 307.34px;
+			height: 257.4px;
+			display: block;
+			margin: 0 auto;
 		}
 	}
 
@@ -252,7 +259,14 @@
 	padding-top: 4.6875em;
 
 	img {
-		margin-bottom: 50px;
+		margin: 0 auto 50px auto;
+		width: 209px;
+		//height: 209px;
+		display: block;
+
+		@include responsive(min-width, 768px) {
+			margin: 0 0 50px 0;
+		}
 	}
 
 	.row {
@@ -358,14 +372,30 @@
 }
 
 .tab-content {
-	padding: 63px 0 84px 0;
+	padding: 0 0 25px 0;
 
-	.tab-icon {
-		width: 377px;
-		height: 377px;
-		display: block;
-		margin: 0 auto;
+	@include responsive(min-width, 600px) {
+		padding: 63px 0 84px 0;
 	}
+
+	.icon {
+		width: 329.49px;
+		height: 641.31px;
+		display: block;
+		margin: 0 auto 25px auto;
+
+		@include responsive(min-width, 768px) {
+			margin: 0 auto;
+		}
+
+	}
+
+	// .tab-icon {
+	// 	width: 377px;
+	// 	height: 377px;
+	// 	display: block;
+	// 	margin: 0 auto;
+	// }
 }
 
 // Info section

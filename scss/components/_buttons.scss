@@ -13,12 +13,10 @@
     margin: 15px 0 15px 0;
     transition: linear .2s;
 
-
-
     &:hover {
     	text-decoration: none;
-    	background-color: $white;
-    	color: $purple;
+    	background-color: $purple;
+    	color: $white;
     }
 }
 
@@ -134,4 +132,9 @@ $animation-speed: 0.3s;
 	right: 20px;
 	// top: 25px;
 	top: -7px;
+
+	&:hover {
+		cursor: pointer;
+	}
+
 }

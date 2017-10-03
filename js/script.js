@@ -16,7 +16,8 @@ jQuery(document).ready(function($){
 	$("span[class^='mobile-menu']").click(function() {
 		$(this).toggleClass('toggle');
 
-		$('.caped-mobile').toggle('.caped-mobile-open');
+		$('.caped-mobile').slideToggle('.caped-mobile-open');
+		//$('.caped-mobile').toggle("fade", 500);
 	});
 
 	$('.six').bind('inview', function (event, visible) {

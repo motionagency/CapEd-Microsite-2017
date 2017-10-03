@@ -1,16 +1,16 @@
-// Contact Form 7 
+// Contact Form 7
 
 #left {
     width: 49%;
     float: left;
     margin-right: 2%;
 }
- 
+
 #right {
     width: 49%;
     float: left;
 }
- 
+
 .clearfix:after {
     content:"\0020";
     display:block;
@@ -20,7 +20,7 @@
     overflow:hidden;
     margin-bottom:10px;
 }
- 
+
 .clearfix {
     display:block;
 }
@@ -75,7 +75,7 @@ span.wpcf7-list-item {
 	textarea {
 		font-family: AvenirLTStd-Book;
 		color: $blue;
-		font-size: 1rem;	
+		font-size: 1rem;
 		width: 100%;
 		border: 2px solid $blue;
 		padding: 15px;
@@ -91,24 +91,25 @@ span.wpcf7-list-item {
 
 
 .wpcf7 input[type="submit"] {
-	font-family: AvenirLTStd-Heavy, sans-serif, Arial;
+  font-family: AvenirLTStd-Heavy, sans-serif, Arial;
 	width: 167px;
-	background-color: transparent;
+  background-color: transparent;
 	font-size: 0.9375rem;
-    line-height: 20px;
-    color: $purple;
-    display: inline-block;
+  line-height: 20px;
+  color: $purple;
+  display: inline-block;
 	border: 3px solid $purple;
-    border-radius: 25px;
-    text-transform: uppercase;
-    padding: 14px 25px 10px 25px;
-    margin: 15px 0 15px 0;
-    transition: linear .2s;
+  border-radius: 25px;
+  text-transform: uppercase;
+  padding: 14px 25px 10px 25px;
+  margin: 15px 0 15px 0;
+  transition: linear .2s;
 
-    &:hover {
-    	text-decoration: none;
-    	background-color: $purple;
-    	color: $white;
-    	cursor: pointer;
-    }
+  &:hover {
+    text-decoration: none;
+    background-color: $purple;
+    color: $white;
+    cursor: pointer;
+  }
+
 }

@@ -43,7 +43,7 @@ Template Name: What We Do Template
 					<div class="container">
 						<div class="row">
 							<div class="col-md-5">
-								<img src="<?php ?>" alt="">
+								<img class="icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/infographic_Collaboration.svg" alt="Collaboration &amp; Strategy Development Icon">
 							</div>
 							<div class="col-md-7">
 									<h2>Collaboration &amp; Strategy Development</h2>
@@ -70,7 +70,7 @@ Template Name: What We Do Template
 					<div class="container">
 						<div class="row">
 							<div class="col-md-5">
-
+								<img class="icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/infographic_Academic.svg" alt="Academic Icon">
 							</div>
 							<div class="col-md-7">
 									<h2>Academics</h2>
@@ -89,7 +89,7 @@ Template Name: What We Do Template
 					<div class="container">
 						<div class="row">
 							<div class="col-md-5">
-
+								<img class="icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/infographic_Promotion.svg" alt="Delivery Icon">
 							</div>
 							<div class="col-md-7">
 									<h2>Promotion</h2>
@@ -108,7 +108,7 @@ Template Name: What We Do Template
 					<div class="container">
 						<div class="row">
 							<div class="col-md-5">
-
+								<img class="icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/infographic_Enrollment.svg" alt="Enrollment Icon">
 							</div>
 							<div class="col-md-7">
 									<h2>Enrollment</h2>
@@ -127,7 +127,7 @@ Template Name: What We Do Template
 					<div class="container">
 						<div class="row">
 							<div class="col-md-5">
-
+								<img class="icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/infographic_Delivery.svg" alt="Promotion Icon">
 							</div>
 							<div class="col-md-7">
 								<h2>Delivery</h2>
