@@ -58,7 +58,7 @@ Template Name: CapEd Home Template
 		<div class="row">
 			<div class="col-12">
 				<div class="wrap">
-					<h5>We don't deliver courses off the shelf. Instead, we'll partner with you on a journey that belong <span class="span-red">only to you.</span></h5>
+					<h5>We don't deliver courses off the shelf. Instead, we'll partner with you on a journey that belongs <span class="span-red">only to you.</span></h5>
 				</div>
 			</div>
 		</div>
