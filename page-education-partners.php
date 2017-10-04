@@ -132,7 +132,7 @@ Template Name: Education Partners Template
 			<div class="wrap">
 				<h2>Ready to Talk?</h2>
 				<h3>Let's connect!</h3>
-				<a class="button-white" href="#">contact us</a>
+				<a class="button-white" href="/contact-us/">contact us</a>
 			</div>
 		</div>
 	</div>
