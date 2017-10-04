@@ -68,6 +68,11 @@
 	}
 }
 
+// Bottom Swoop SVG
+.one-bottom-swoop {
+	margin-top: -2px;
+}
+
 .two {
 	padding: 40px 0 60px 0;
 
@@ -162,6 +167,13 @@
 			width: 308px;
 			height: 301px;
 		}
+	}
+}
+
+.six-swoop {
+	margin-bottom: -2px;
+	svg {
+		display: block;
 	}
 }
 
@@ -335,16 +347,19 @@
 	nav {
 		a {
 			font-family: Museo-300Italic;
-			height: 145px;
-			height: 125px;
+			//height: 145px;
+			//height: 125px;
+			height: 100px;
 			background-color: $grey;
 			color: $blue;
-			font-size: 1.875em;
+			//font-size: 1.875em;
+			font-size: 1.25em;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			border-right: 10px solid $white;
-			line-height: 1;
+			//line-height: 1;
+			line-height: 1.1;
 
 			&:hover {
 				color: $purple;
@@ -700,5 +715,18 @@
 			margin-bottom: 46px;
 		}
 
+	}
+}
+
+
+// Widget Area
+.widget-area {
+	h2 {
+		font-size: 2em;
+	}
+
+	ul {
+		padding-left: 0;
+		list-style: none;
 	}
 }

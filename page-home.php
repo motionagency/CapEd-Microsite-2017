@@ -217,7 +217,13 @@ Template Name: CapEd Home Template
 	</div>
 </section>
 <section class="six-swoop">
-	<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/six_swoop.svg" alt="">
+	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 viewBox="0 0 1366 133" style="enable-background:new 0 0 1366 133;" xml:space="preserve">
+	<style type="text/css">
+		.st0{fill:#0D2240;}
+	</style>
+	<path class="st0" d="M0,6c108,35,326,112,683,112S1366,0,1366,0v133H0V6z"/>
+	</svg>
 </section>
 <section class="six">
 	<div class="container">
