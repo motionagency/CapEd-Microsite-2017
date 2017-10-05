@@ -43,7 +43,7 @@ Template Name: Education Partners Template
 			</div>
 		</div>
 		<div class="col-lg-6">
-			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/quote-edu-partners@2x.png" alt="CapEd Education Partners">
+			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/education-hero@2x.png" alt="CapEd Education Partners">
 		</div>
 	</div>
 </section>
@@ -53,10 +53,10 @@ Template Name: Education Partners Template
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 icon-center">
-				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/three-people-icon.svg" alt="CapEd Education Partners">
+				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/lightbulb-icon.svg" alt="CapEd Education Partners">
 			</div>
 			<div class="col-md-6">
-				<h3>The Post-traditional Market</h3>
+				<h3>An Unconventional Approach</h3>
 				<p>We partner with universities and colleges committed to elevating their reputation for serving the post-traditional market and joining the elite ranks of higher-education institutions. In a fiercely competitive market, we and our partners must embrace change to achieve success. The CapEd commitment helps each partner adapt in a way that enhances and magnifies their fundamental values and mission.</p>
 
 				<p>Delivering customized programs to serve the non-traditional learner requires an unconventional approach. There are no one-size-fits-all solutions, and our partners quickly learn that CapEd’s approach is genuinely different.</p>
@@ -77,21 +77,6 @@ Template Name: Education Partners Template
 	</div>
 </section>
 
-
-<!-- <section class="quote-edu-partners">
-	<div class="row no-gutters d-flex align-items-center">
-		<div class="col-lg-6">
-			<div class="wrap">
-				<h2>The online education market is constantly evolving.</h2>
-				<p>So we constantly adapt, with initiatives like CapEd Connect™, to keep serving up relevant and innovative solutions. Each CapEd client is different, and our partnership model empowers us to deliver truly customized programs, with flexible and affordable client agreement options.</p>
-			</div>
-		</div>
-		<div class="col-lg-6">
-			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/quote-edu-partners@2x.png" alt="CapEd Education Partners">
-		</div>
-	</div>
-</section> -->
-
 <!-- info -->
 <div class="info">
 	<div class="container">
@@ -103,7 +88,7 @@ Template Name: Education Partners Template
 				<p>When we’re finished, your ability to attract and engage post-traditional learners will be transformed. Together, we will realize our shared mission to equip graduates to thrive as professionals and make a positive impact in their communities.</p>
 			</div>
 			<div class="col-md-6 icon-center">
-				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/three-people-icon.svg" alt="Three people icon">
+				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/text-message-icon.svg" alt="Three people icon">
 			</div>
 		</div>
 	</div>
@@ -116,7 +101,7 @@ Template Name: Education Partners Template
 				<div class="wrap">
 					<h2>How We're Different</h2>
 					<p>We invest in customized solutions that reflect your vision and achieve your goals.</p>
-					<a class="button-clear" href="#">see how we do it</a>
+					<a class="button-clear" href="/what-we-do/">see how we do it</a>
 				</div>
 			</div>
 		</div>
@@ -126,7 +111,7 @@ Template Name: Education Partners Template
 <section class="ready-to-talk">
 	<div class="row no-gutters d-flex align-items-center">
 		<div class="col-lg-6">
-			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/headphones-girl.png" alt="Women with headphones on looking happy">
+			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk@2x.png" alt="Women with headphones on looking happy">
 		</div>
 		<div class="col-lg-6">
 			<div class="wrap">

@@ -45,7 +45,7 @@ Template Name: CapEd Connect Template
 			</div>
 		</div>
 		<div class="col-lg-6">
-			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/quote-connect@2x.png" alt="CapEd Connect">
+			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/connect-hero@2x.png" alt="CapEd Connect">
 		</div>
 	</div>
 </section>
@@ -55,7 +55,7 @@ Template Name: CapEd Connect Template
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 icon-center">
-				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/three-people-icon.svg" alt="CapEd Education Partners">
+				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/gear-icon.svg" alt="CapEd Education Partners">
 			</div>
 			<div class="col-md-6">
 				<h3>Pathway to Professional Advancement</h3>
@@ -94,13 +94,13 @@ Template Name: CapEd Connect Template
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<h3>A Shared Mission</h3>
+				<h3>Hitting the Mark</h3>
 				<p>To understand your specific needs and deliver training and development content that hits the mark, we’ll work closely with your organization’s experts. As a supplement to your internal capabilities, CapEd Connect brings in our subject matter experts to take developmental initiatives to the next level.</p>
 
 				<p>We’ll stay the course with you throughout the journey. When we’re finished you’ll be able to provide your employees with skills and knowledge they need, and nurture an exceptional, motivated and loyal workforce. Very quickly, you’ll start to see a return on your investment that goes right to your bottom line.</p>
 			</div>
 			<div class="col-md-6 icon-center">
-				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/three-people-icon.svg" alt="Three people icon">
+				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/target-icon.svg" alt="Three people icon">
 			</div>
 		</div>
 	</div>
@@ -114,7 +114,7 @@ Template Name: CapEd Connect Template
 				<div class="wrap">
 					<h2>How We're Different</h2>
 					<p>We invest in customized solutions that reflect your vision and achieve your goals.</p>
-					<a class="button-clear" href="#">see how we do it</a>
+					<a class="button-clear" href="/what-we-do/">see how we do it</a>
 				</div>
 			</div>
 		</div>
@@ -125,7 +125,7 @@ Template Name: CapEd Connect Template
 <section class="ready-to-talk">
 	<div class="row no-gutters d-flex align-items-center">
 		<div class="col-lg-6">
-			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/headphones-girl.png" alt="Women with headphones on looking happy">
+			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk@2x.png" alt="Women with headphones on looking happy">
 		</div>
 		<div class="col-lg-6">
 			<div class="wrap">

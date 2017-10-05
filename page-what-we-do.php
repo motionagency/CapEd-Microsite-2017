@@ -26,7 +26,7 @@ Template Name: What We Do Template
 	</div>
 </section>
 
-<section class="leadership-image"></section>
+<!-- <section class="leadership-image"></section> -->
 
 <section class="what-we-do-tabs">
 	<nav class="nav nav-pills nav-fill flex-column flex-md-row" role="tablist">
@@ -151,7 +151,7 @@ Template Name: What We Do Template
 <section class="ready-to-talk">
 	<div class="row no-gutters d-flex align-items-center">
 		<div class="col-lg-6">
-			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/headphones-girl.png" alt="Women with headphones on looking happy">
+			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk@2x.png" alt="Women with headphones on looking happy">
 		</div>
 		<div class="col-lg-6">
 			<div class="wrap">

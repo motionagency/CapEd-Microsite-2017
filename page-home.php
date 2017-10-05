@@ -120,11 +120,11 @@ Template Name: CapEd Home Template
 			</div>
 			<div class="col-lg-6">
 				<h2>How We're Different</h2>
-				<p>Learning should a be transformative journey, filled with unique discoveries and rewards. Online learning is no exception, which is why CapEd does things differently. We don’t deliver educational resources off the shelf. Instead, we’ll partner with you on a journey that belongs only to you, and enriches your primary constituent, either in a learning environment or on the job.</p>
+				<p>Learning should a be transformative journey, filled with unique discoveries and rewards. Online learning is no exception, which is why CapEd does things differently. We don’t deliver educational resources off the shelf. Instead, we’ll partner with you on a journey that belongs only to you.</p>
 
 				<p>Our consultative approach helps us thoroughly
 				understand your aspirations, opportunities and challenges. We will passionately invest in customized solutions that
-				reflect your vision and achieve your goals. Most important, we’ll help you inspire your students to dream bigger dreams and achieve extraordinary success.</p>
+				reflect your vision and achieve your goals. Most important we’ll help you inspire your students to dream bigger dreams and achieve extraordinary success.</p>
 
 				<?php
 
@@ -161,7 +161,7 @@ Template Name: CapEd Home Template
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/asian_man@2x.png" alt="Student working at desk">
+				<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/home-education@2x.png" alt="Student working at desk">
 			</div>
 		</div>
 	<!-- </div> -->
@@ -171,12 +171,12 @@ Template Name: CapEd Home Template
 	<!-- <div class="container-fluid"> -->
 		<div class="row no-gutters">
 			<div class="col-lg-6 order-2 order-lg-1">
-				<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/teacher@2x.png" alt="Student working at desk">
+				<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/home-connect@2x.png" alt="Student working at desk">
 			</div>
 			<div class="col-lg-6 order-1 order-lg-2 d-flex align-items-center justify-content-start">
 				<div class="wrap">
 					<h2>For Businesses</h2>
-					<p>Our Connect™ initiative provides businesses and organizations with exceptional access to university-level knowledge, resources and cutting-edge research. The CapEd partnering model applies best practices in learning to help you attract and retain talented employees, and maximize return on investment.</p>
+					<p>Our Connect™ initiative provides businesses and organizations with exceptional access to university-level knowledge, resources and relevant applied research. The CapEd partnering model applies best practices in learning to help you attract and retain talented employees, and maximize return on investment.</p>
 
 					<?php
 
@@ -201,7 +201,7 @@ Template Name: CapEd Home Template
 			<div class="col-lg-7">
 				<h2>Bringing Deep Expertise</h2>
 				<h3>Our CapEd Leadership Team</h3>
-				<p>We have a unique perspective gleaned from our team's 100+ years of higher education experience. Let our cumulative knowledge help you achieve your goals. Let's Talk!</p>
+				<p>We have a unique perspective gleaned from our team's 100+ years of higher education experience. Let our cumulative knowledge help you achieve your goals.</p>
 
 				<?php
 

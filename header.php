@@ -28,7 +28,7 @@
 
 		  gtag('config', 'UA-107517322-1');
 		</script>
-		
+
 </head>
 
 <body <?php body_class(); ?>>
