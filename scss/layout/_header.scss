@@ -2,21 +2,35 @@
 .site-title {
 
 	img {
-		width: 124px;
-		height: 53px;
+		width: 76px;
+		height: 32px;
+
+		@include responsive(min-width, 600px) {
+			width: 124px;
+			height: 53px;
+		}
 	}
 }
 
 .site-branding {
-	padding-top: 23px;
+	padding-top: 15px;
+
+	@include responsive(min-width, 600px) {
+		padding-top: 23px;
+	}
 }
 
 
 // Header
 .site-header {
-	height: 90px;
+	height: 60px;
 	background-color: $white;
-	box-shadow: 0 4px 2px -2px gray;
+	//box-shadow: 0 4px 2px -2px gray;
+	box-shadow: 0 4px 8px 0px rgba(0,0,0,.1);
+
+	@include responsive(min-width, 600px) {
+		height: 90px;
+	}
 
 	.mobile-menu {
 		display: block;
@@ -61,13 +75,17 @@
 	height: 100%;
     width: 100%;
     position: fixed;
-    top: 92px;
+    top: 60px;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 2000;
     background-color: $blue;
     text-align: center;
+
+		@include responsive(min-width, 600px) {
+			top: 92px;
+		}
 
     ul {
     	list-style: none;

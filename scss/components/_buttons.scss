@@ -9,7 +9,7 @@
 	border: 3px solid $purple;
     border-radius: 25px;
     text-transform: uppercase;
-    padding: 14px 25px 10px 25px;
+    padding: 14px 38px 10px 38px;
     margin: 15px 0 15px 0;
     transition: linear .2s;
 
@@ -30,7 +30,7 @@
 	background-color: $white;
 	border-radius: 25px;
   text-transform: uppercase;
-  padding: 14px 25px 10px 25px;
+  padding: 14px 38px 10px 38px;
   margin: 15px 0 15px 0;
   transition: linear .2s;
 
@@ -54,12 +54,21 @@ $animation-speed: 0.3s;
 		border-top: 3px solid #000;
 		display: block;
 		transition: margin $animation-speed, transform $animation-speed;
-		width: 50px;
+		width: 40px;
+
+		@include responsive(min-width, 600px) {
+			width: 50px;
+		}
+
 	}
 
 	.line-2 {
 		@extend .line-1;
-		margin: 10px 0;
+		margin: 7px 0;
+
+		@include responsive(min-width, 600px) {
+			margin: 10px 0;
+		}
 	}
 
 	.line-3 {
@@ -132,7 +141,11 @@ $animation-speed: 0.3s;
 	position: absolute;
 	right: 20px;
 	// top: 25px;
-	top: -7px;
+	top: -17px;
+
+	@include responsive(min-width, 600px) {
+		top: -7px;
+	}
 
 	&:hover {
 		cursor: pointer;

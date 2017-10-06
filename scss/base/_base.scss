@@ -1,8 +1,18 @@
 body {
 	font-family: AvenirLTStd-Book, sans-serif;
 	font-size: 1em;
-	padding-top: 90px;
+	line-height: 1.5;
+	padding-top: 60px;
+
+	@include responsive(min-width, 600px) {
+		padding-top: 90px;
+	}
 }
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.25;
+}
+
 
 // WP-admin logged in styles
 .logged-in {

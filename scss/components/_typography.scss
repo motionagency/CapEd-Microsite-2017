@@ -1,7 +1,11 @@
 h1 {
 	font-family: Museo-500;
 	color: $blue;
-	font-size: 2.5em; // 40px
+	font-size: 2em;
+
+	@include responsive(min-width, 375px) {
+		font-size: 2.5em; // 40px
+	}
 
 	@include responsive(min-width, 600px) {
 		font-size: 4.375em; // Museo 70px 500 weight
@@ -12,6 +16,7 @@ h1 {
 h2 {
 	font-family: Museo-300Italic;
 	font-size: 2.8125em; // Museo 45px 300 weight italic
+	font-size: 2.7em; // Museo 45px 300 weight italic
 	color: $blue;
 }
 
@@ -19,6 +24,7 @@ h3 {
 	font-family: AvenirLTStd-Heavy;
 	font-size: 1.375em; // Avenir 85 Heavy 22px
 	color: $purple;
+	margin-top: 8px;
 }
 
 h4 {
@@ -36,13 +42,14 @@ h5 {
 p {
 	font-family: AvenirLTStd-Book;
 	font-size: 1.25em; // Avenir 45 Book 20px
-	line-height: 27px;
+	//line-height: 27px;
 	color: $bodyCopy;
 }
 
 .span-red {
-	font-family: Museo-700;
+	font-family: Museo-700italic;
 	color: $red;
+	white-space: nowrap;
 }
 
 .numbers {

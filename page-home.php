@@ -147,7 +147,7 @@ Template Name: CapEd Home Template
 			<div class="col-lg-6 d-flex align-items-center">
 				<div class="wrap">
 					<h2>For Colleges &amp; Universities</h2>
-					<p>The CapEd mission is to help institutions be more successful serving the post-traditional learner. We are inspired by organizations willing to embrace change and adapt their vision. Our collaboration will help your institution preserve its uniqueness, build a stronger financial future, and elevate your achievements in higher education.</p>
+					<p>The CapEd mission is to help institutions be more successful serving the post-traditional learner. We are inspired by organizations willing to embrace change and adapt their vision. Our collaboration will help your institution preserve its uniqueness, build a stronger financial future, and elevate your achievements in higher-education.</p>
 					<?php
 
 						$sectionThreeButton = get_field('section_three_button');
@@ -201,7 +201,7 @@ Template Name: CapEd Home Template
 			<div class="col-lg-7">
 				<h2>Bringing Deep Expertise</h2>
 				<h3>Our CapEd Leadership Team</h3>
-				<p>We have a unique perspective gleaned from our team's 100+ years of higher education experience. Let our cumulative knowledge help you achieve your goals.</p>
+				<p>We have a unique perspective gleaned from our team's 100+ years of higher-education experience. Let our cumulative knowledge help you achieve your goals.</p>
 
 				<?php
 
@@ -233,7 +233,7 @@ Template Name: CapEd Home Template
 					<p class="numbers"><span id="counter_00"></span>%+</p>
 					<h3>Growth</h3>
 					<img class="red-line" src="<?php echo esc_url(get_template_directory_uri() );?>/images/red-line.svg" alt="Capital Education">
-					<p>Bi-Annual Growth Rate for Partner Campuses</p>
+					<p>Biannual Growth Rate for Partner Campuses</p>
 				</div>
 			</div>
 			<div class="col-lg-4">

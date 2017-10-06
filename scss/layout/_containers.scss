@@ -13,15 +13,10 @@
 		@include responsive(min-width, 600px) {
 			padding: 130px 0 100px 0;
 		}
-	//
-	// 	h1 {
-	// 		font-size: 2.5em;
-	//
-	// 		@include responsive(min-width, 600px) {
-	// 			font-size: 4.375em;
-	// 	}
-	//
-	// }
+
+		h1 {
+			margin-bottom: 0;
+		}
 
 		h3 {
 			display: none;
@@ -57,12 +52,12 @@
 
 		h5 {
 			font-size: 1.25em;
-			// font-family: Museo-300;
-			// font-size: 1.25em;
-			// color: $grey;
+			font-family: Museo-300Italic;
+			// line-height: 1.25;
 
 			@include responsive(min-width, 600px) {
 				font-size: 2.25em;
+				//line-height: 50px;
 			}
 		}
 	}
@@ -118,7 +113,7 @@
 			font-size: 2.1875em;
 
 			@include responsive(min-width, 600px) {
-				font-size: 2.8125em;
+				font-size: 2.7em;
 			}
 		}
 
@@ -180,11 +175,12 @@
 .six {
 	background-color: $blue;
 	text-align: center;
-	padding-bottom: 30px;
+	// padding-bottom: 30px;
 
 	.numbers {
 		margin-bottom: -5px;
 		color: $grey;
+		line-height: 1;
 	}
 
 	.counter-wrap {
