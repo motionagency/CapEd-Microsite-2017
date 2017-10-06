@@ -46,3 +46,19 @@ sup {
     margin: .5rem;
     font-size: 1rem;
 }
+
+.mobile {
+	display: block;
+
+	@include responsive(min-width, 600px) {
+		display: none;
+	}
+}
+
+.desktop {
+	display: none;
+
+	@include responsive(min-width, 600px) {
+		display: block;
+	}
+}

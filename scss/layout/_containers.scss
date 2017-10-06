@@ -467,9 +467,10 @@
 
 .info {
 	padding: 50px 0 50px 0;
+	height: auto;
 
 	@include responsive(min-width, 992px) {
-		height: 456px;
+		height: 600px;
 		display: flex;
 		align-items: center;
 	}
@@ -611,7 +612,7 @@
 	.wrap {
 		max-width: 460px;
 		margin: 0 auto;
-		padding: 50px 0 50px 0;
+		padding: 3.125rem 1rem 3.125rem 1rem;
 
 		@include responsive(min-width, 992px) {
 			padding: 0;

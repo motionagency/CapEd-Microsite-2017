@@ -4,20 +4,23 @@ h1 {
 	font-size: 2em;
 
 	@include responsive(min-width, 375px) {
-		font-size: 2.5em; // 40px
+	font-size: 2.5em; // 40px
 	}
 
 	@include responsive(min-width, 600px) {
-		font-size: 4.375em; // Museo 70px 500 weight
+	font-size: 4.375em; // Museo 70px 500 weight
 	}
 
 }
 
 h2 {
 	font-family: Museo-300Italic;
-	font-size: 2.8125em; // Museo 45px 300 weight italic
-	font-size: 2.7em; // Museo 45px 300 weight italic
+	font-size: 1.8em; // Museo 28.8px 300 weight italic
 	color: $blue;
+
+	@include responsive(min-width, 600px) {
+	font-size: 2.7em; // Museo 45px 300 weight italic
+	}
 }
 
 h3 {

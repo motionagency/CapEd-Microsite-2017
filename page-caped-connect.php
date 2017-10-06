@@ -28,7 +28,7 @@ Template Name: CapEd Connect Template
 				</div>
 
 				<div class="wrap-two">
-					<p>CapEd’s consultative partnering model has helped colleges and universities achieve goals with highly-engaging customized online learning solutions. The CapEd Connect™ program applies our proven methods to serve the learning and training needs of businesses and community organizations.</p>
+					<p>CapEd’s consultative partnering model has helped colleges and universities achieve goals with highly engaging customized online learning solutions. The CapEd Connect™ program applies our proven methods to serve the learning and training needs of businesses and community organizations.</p>
 				</div>
 
 			</div>
@@ -41,7 +41,7 @@ Template Name: CapEd Connect Template
 		<div class="col-lg-6">
 			<div class="wrap">
 				<h2>The Connect<sup>TM</sup> program applies proven methods.</h2>
-				<p>Depending on the need, Connect can span the spectrum from degree-seeking programs developed in partnership with one of our Higher Education Partners to diverse training and development content created in collaboration with the business and offered conveniently to employees.</p>
+				<p>Depending on the need, Connect can span the spectrum from degree-seeking programs developed in partnership with one of our higher-education partners to diverse training and development content created in collaboration with the business and offered conveniently to employees.</p>
 			</div>
 		</div>
 		<div class="col-lg-6">
@@ -125,7 +125,8 @@ Template Name: CapEd Connect Template
 <section class="ready-to-talk">
 	<div class="row no-gutters d-flex align-items-center">
 		<div class="col-lg-6">
-			<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk@2x.png" alt="Women with headphones on looking happy">
+			<img class="desktop" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk@2x.png" alt="Man talking on cellphone with laptop">
+			<img class="mobile" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk.png" alt="Man talking on cellphone with laptop">
 		</div>
 		<div class="col-lg-6">
 			<div class="wrap">
