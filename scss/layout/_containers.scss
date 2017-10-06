@@ -422,6 +422,7 @@
 	}
 
 	.icon-center {
+
 		@include responsive(min-width, 992px) {
 			display: flex;
 			align-items: center;
@@ -431,11 +432,16 @@
 
 	.three-peeps-icon {
 		display: block;
-		width: 257px;
-		height: 257px;
-		margin: 0 auto;
-	}
+		width: 157px;
+		height: 157px;
+		margin: 0 auto 25px auto;
 
+		@include responsive(min-width, 768px) {
+			width: 257px;
+			height: 257px;
+			margin: 0 auto;
+		}
+	}
 }
 
 .info-one-caped-connect {

@@ -15,7 +15,7 @@ Template Name: What We Do Template
 		<div class="row">
 			<div class="col-lg-7">
 				<?php the_title('<h1>', '</h1>'); ?>
-				<p>Every CapEd academic partner or Connect partner in the business world has different goals, opportunities and challenges. For those who want to take advantage of our comprehensive end-to-end development capability, we apply the following solutions model to meet this challenge.</p>
+				<p>Every CapEd academic partner or Connect™ partner in the business world has different goals, opportunities and challenges. For those who want to take advantage of our comprehensive end-to-end development capability, we apply the following solutions model to meet this challenge.</p>
 
 				<p>Other partners, however, may only have a need that taps into one or two of our service lines, rather than the complete model. In those cases, CapEd has the flexibility to serve up our menu with just the right solutions for a customized experience.</p>
 			</div>

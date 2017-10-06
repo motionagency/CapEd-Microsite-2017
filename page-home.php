@@ -147,7 +147,7 @@ Template Name: CapEd Home Template
 			<div class="col-lg-6 d-flex align-items-center">
 				<div class="wrap">
 					<h2>For Colleges &amp; Universities</h2>
-					<p>The CapEd mission is to help institutions be more successful serving the post-traditional learner. We are inspired by organizations willing to embrace change and adapt their vision. Our collaboration will help your institution preserve its uniqueness, build a stronger financial future, and elevate your achievements in higher-education.</p>
+					<p>The CapEd mission is to help institutions be more successful serving the post-traditional learner. We are inspired by organizations willing to embrace change and adapt their vision. Our collaboration will help your institution preserve its uniqueness, build a stronger financial future, and elevate your achievements in higher education.</p>
 					<?php
 
 						$sectionThreeButton = get_field('section_three_button');
