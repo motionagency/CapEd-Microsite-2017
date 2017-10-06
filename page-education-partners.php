@@ -19,7 +19,7 @@ Template Name: Education Partners Template
 		<div class="row">
 			<div class="col-12">
 				<div class="wrap-one">
-					<h2>Online Learning Built With You, and For Your Students</h2>
+					<h2>Online Learning Built with You, and for Your Students</h2>
 				</div>
 
 				<div class="hero-redline">
