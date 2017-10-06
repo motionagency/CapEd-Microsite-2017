@@ -124,7 +124,7 @@ Template Name: CapEd Home Template
 
 				<p>Our consultative approach helps us thoroughly
 				understand your aspirations, opportunities and challenges. We will passionately invest in customized solutions that
-				reflect your vision and achieve your goals. Most important we’ll help you inspire your students to dream bigger dreams and achieve extraordinary success.</p>
+				reflect your vision and achieve your goals. Most important, we’ll help you inspire your students to dream bigger dreams and achieve extraordinary success.</p>
 
 				<?php
 

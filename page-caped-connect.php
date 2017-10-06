@@ -55,7 +55,7 @@ Template Name: CapEd Connect Template
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 icon-center">
-				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/gear-icon.svg" alt="CapEd Education Partners">
+				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/connect-icon1.svg" alt="CapEd Education Partners">
 			</div>
 			<div class="col-md-6">
 				<h3>Pathway to Professional Advancement</h3>

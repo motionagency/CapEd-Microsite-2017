@@ -48,19 +48,19 @@ Template Name: What We Do Template
 							<div class="col-md-7">
 									<h2>Collaboration &amp; Strategy Development</h2>
 									<h3>Readiness Assessment/Change Management Consulting</h3>
-									<p>CapEd functional area expert consultants meet with the partner’s faculty, administrative and support service groups to assess institutional competencies and gaps in preparedness to thrive in the post-traditional market.</p>
+									<p>CapEd functional area expert consultants meet with the partner’s faculty, administrative, and support service groups to assess institutional competencies and gaps in preparedness to thrive in the post-traditional market.</p>
 									<h3>Market Assessment</h3>
-									<p>CapEd presents an analysis of the higher-education post-traditional landscape from a national and regional perspective. We also assess and inform the competitive environment for the partner’s proposed program mix, targeted audience segments and location strategy.</p>
+									<p>CapEd presents an analysis of the higher-education post-traditional landscape from a national and regional perspective. We also assess and inform the competitive environment for the partner’s proposed program mix, targeted audience segments, and location strategy.</p>
 									<h3>Accreditation Preparation and Review</h3>
-									<p>The CapEd Executive Team provides collaborative assistance to the partner in preparing resources for programmatic regional and professional accreditation review.</p>
+									<p>The CapEd Executive Team provides collaborative assistance to the partner in preparing resources for programmatic regional, and professional accreditation review.</p>
 									<h3>Program Mix</h3>
 									<p>A mix of undergraduate and graduate programs is identified by CapEd, to leverage the strengths of a variety of academic disciplines, developing programs that promote curricular efficiency, laddering of progressive degree attainment opportunities, and demonstrate sensitivity to market opportunities.</p>
 									<h3>Systems Review and Assessment</h3>
 									<p>CapEd evaluates and maps the student experience through the partner’s systems and develops a solutions program to serve for consultative intervention. Documented policies and procedures are intentionally systemized to efficiently scale with the institution’s online growth requiring subsets of existing resources at launch and benchmarks to indicate additional resources as growth demands.</p>
 									<h3>Business Operations Consulting</h3>
-									<p>CapEd provides resources such as modeling tools, training and peer collaboration opportunities, and consulting services to the partner, to optimize infrastructure and systems. Policy review and development to ensure strategic lifecycle management.</p>
+									<p>CapEd provides resources such as modeling tools, training and peer collaboration opportunities, and consulting services to the partner, to optimize infrastructure and systems. We review existing policies or help the partner develop new policies to ensure strategic life cycle management.</p>
 									<h3>Financial Modeling</h3>
-									<p>A modeling tool developed by CapEd reflects mutual enrollment and program development goals, anticipated resource allocations and project revenue expectations.</p>
+									<p>We develop a customized modeling tool, reflecting mutual enrollment and program development goals, anticipated resource allocations, and project revenue expectations.</p>
 							</div>
 						</div>
 					</div>
@@ -73,9 +73,9 @@ Template Name: What We Do Template
 								<img class="icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/infographic_Academic.svg" alt="Academic Icon">
 							</div>
 							<div class="col-md-7">
-									<h2>Academics</h2>
+									<h2>Academic Services</h2>
 									<h3>Program Design</h3>
-									<p>CapEd Academic Services provides detailed recommendations of industry standards and competitive features of post-traditional program design.  We also engage with partner faculty and program administrators to develop online, face-to-face and hybrid programs that are aligned with college and program outcomes attainment standards, competitive advantage of comparable regional college offerings and employment market standards.</p>
+									<p>CapEd Academic Services provides detailed recommendations of industry standards and competitive features of post-traditional program design.  We also engage with partner faculty and program administrators to develop online, face-to-face and hybrid programs that are aligned with college and program outcomes attainment standards, competitive advantage of comparable regional college offerings, and employment market standards.</p>
 									<h3>Curriculum/Course Development Support</h3>
 									<p>CapEd’s Instructional Design team provides course development services to each partner’s faculty Subject Matter Expert (SME) in developing master courses in the Virtual Campus learning management system.  SMEs will utilize a customized tool to communicate the course design to the instructional designer who will in turn provide resources and recommendations to assist the SME in optimizing the expression of course outcomes and the student experience.  The Instructional Designer will build the master course into the Virtual Campus as guided by the partner’s SME and approved by the partner’s program director.</p>
 									<h3>Policy Infrastructure Consulting</h3>
@@ -94,11 +94,11 @@ Template Name: What We Do Template
 							<div class="col-md-7">
 									<h2>Promotion</h2>
 									<h3>Marketing</h3>
-									<p>Awareness &amp; Positioning: An integrated marketing strategy is developed and implemented by CapEd to drive enrollment for the partner’s programs. This includes assessment and consultation of the college’s brand expression and market responsiveness.  A brand-consistent, customized creative expression, positioning and messaging strategy is developed to enhance awareness and campaign response rates.</p>
+									<p>Awareness &amp; Positioning: An integrated marketing strategy is developed and implemented by CapEd to drive enrollment for the partner’s programs. This includes assessment and consultation of the college’s brand expression and market responsiveness.  A brand-consistent, customized creative expression, positioning, and messaging strategy is developed to enhance awareness and campaign response rates.</p>
 									<h3>Business Development/Relationship Marketing</h3>
 									<p>CapEd business development professionals will establish relationships and build partnerships with key private and public entities aligned with the partner’s program offerings.</p>
 									<h3>Lead Generation &amp; Qualification</h3>
-									<p>CapEd drives leads to the enrollment funnel through customized microsite and landing pages.  Lead traffic is qualified, with basic program qualification factors prior to directing them into the admissions engagement strategy.</p>
+									<p>CapEd drives leads to the enrollment funnel through customized microsite and landing pages.  Lead traffic is qualified with basic program qualification factors prior to directing them into the admissions engagement strategy.</p>
 							</div>
 						</div>
 					</div>
