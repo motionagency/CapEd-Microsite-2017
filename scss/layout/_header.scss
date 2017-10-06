@@ -35,7 +35,7 @@
 	.mobile-menu {
 		display: block;
 
-		@include responsive(min-width, 800px) {
+		@include responsive(min-width, 900px) {
 			display: none;
 		}
 	}
@@ -44,7 +44,7 @@
 		padding-top: 35px;
 		display: none;
 
-		@include responsive(min-width, 800px) {
+		@include responsive(min-width, 900px) {
 			display: block;
 		}
 
