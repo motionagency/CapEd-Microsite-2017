@@ -54,7 +54,7 @@ Template Name: Education Partners Template
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 icon-center">
-				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/lightbulb-icon.svg" alt="CapEd Education Partners">
+				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/education-icon-1.svg" alt="Outside the box icon - Capital Education">
 			</div>
 			<div class="col-md-6">
 				<h3>An Unconventional Approach</h3>
