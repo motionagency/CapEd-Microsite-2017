@@ -35,14 +35,14 @@ Template Name: Contact Us Template
 
   </div>
 
-  
+
   <section class="contact-us">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="wrap">
             <h1>Contact Us</h1>
-            <p>We look forward to hearing from you, and showing you how our unique approach will deliver exceptional, customized goal-oriented learning programs for your organization.</p>
+            <p>We look forward to hearing from you, and showing you how our unique approach will deliver exceptional, customized, goal-oriented learning programs for your organization.</p>
           </div>
         </div>
       </div>

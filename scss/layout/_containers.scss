@@ -710,7 +710,11 @@
 		width: 312px;
 		height: 258px;
 		margin: 0 auto;
-		display: block;
+		display: none;
+
+		@include responsive(min-width, 768px) {
+			display: block;
+		}
 	}
 }
 

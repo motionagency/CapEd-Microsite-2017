@@ -57,7 +57,7 @@ Template Name: Education Partners Template
 				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/education-icon-1.svg" alt="Outside the box icon - Capital Education">
 			</div>
 			<div class="col-md-6">
-				<h3>An Unconventional Approach</h3>
+				<h3>An Out-Of-Box Approach</h3>
 				<p>We partner with universities and colleges committed to elevating their reputation for serving the post-traditional market and joining the elite ranks of higher-education institutions. In a fiercely competitive market, we and our partners must embrace change to achieve success. The CapEd commitment helps each partner adapt in a way that enhances and magnifies their fundamental values and mission.</p>
 
 				<p>Delivering customized programs to serve the non-traditional learner requires an unconventional approach. There are no one-size-fits-all solutions, and our partners quickly learn that CapEd’s approach is genuinely different.</p>

@@ -97,7 +97,7 @@ Template Name: CapEd Connect Template
 				<h3>Hitting the Mark</h3>
 				<p>To understand your specific needs and deliver training and development content that hits the mark, we’ll work closely with your organization’s experts. As a supplement to your internal capabilities, CapEd Connect brings in our subject matter experts to take developmental initiatives to the next level.</p>
 
-				<p>We’ll stay the course with you throughout the journey. When we’re finished you’ll be able to provide your employees with skills and knowledge they need, and nurture an exceptional, motivated and loyal workforce. Very quickly, you’ll start to see a return on your investment that goes right to your bottom line.</p>
+				<p>We’ll stay the course with you throughout the journey. When we’re finished you’ll be able to provide your employees with skills and knowledge they need, and nurture an exceptional, motivated, and loyal workforce. Very quickly, you’ll start to see a return on your investment that goes right to your bottom line.</p>
 			</div>
 			<div class="col-md-6 icon-center">
 				<img class="three-peeps-icon" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/target-icon.svg" alt="Three people icon">
