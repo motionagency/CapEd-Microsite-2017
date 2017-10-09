@@ -35,7 +35,7 @@ Template Name: CapEd Home Template
 		</div>
 	</div>
 	<section class="one-swoop">
-			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-10147 -8837 1366 186">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-10147 -8837 1366 186" x="0px" y="0px">
 				<defs>
 			<style>.a{fill:none;stroke:#95989a;}.b{clip-path:url(#a);}.c{fill:#0d2240;}.c,.e{fill-rule:evenodd;}.d{clip-path:url(#b);}.e{fill:#e2231a;opacity:0.813;}</style>
 			<clipPath id="a"><rect class="a" width="1366" height="186"/></clipPath><clipPath id="b"><rect class="a" width="883" height="186"/></clipPath></defs>
@@ -176,7 +176,7 @@ Template Name: CapEd Home Template
 			<div class="col-lg-6 order-1 order-lg-2 d-flex align-items-center justify-content-start">
 				<div class="wrap">
 					<h2>For Businesses</h2>
-					<p>Our Connect™ initiative provides businesses and organizations with exceptional access to university-level knowledge, resources and relevant applied research. The CapEd partnering model applies best practices in learning to help you attract and retain talented employees, and maximize return on investment.</p>
+					<p>Our Connect™ initiative provides businesses and organizations with exceptional access to university-level knowledge, resources, and relevant applied research. The CapEd partnering model applies best practices in learning to help you attract and retain talented employees, and maximize return on investment.</p>
 
 					<?php
 

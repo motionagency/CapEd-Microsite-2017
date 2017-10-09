@@ -206,15 +206,52 @@
 
 }
 
+// What We Do Intro
+.wwd-intro {
+	height: auto;
+	padding: 50px 0 50px 0;
+
+	@include responsive(min-width, 992px) {
+		display: flex;
+		align-items: center;
+		height: 500px;
+		padding: 0;
+	}
+
+	.col-lg-5 {
+		@include responsive(min-width, 992px) {
+			display: flex;
+			align-items: center;
+		}
+
+			.tab-icon {
+				width: 300px;
+				margin: 15px auto 40px auto;
+				display: block;
+
+				@include responsive(min-width, 992px) {
+					width: 400px;
+					margin: 0 auto;
+				}
+			}
+		}
+
+}
+
+
+
 // Leadership Team Template
 .leadership-intro {
 	height: auto;
 	padding-top: 50px;
+	padding-bottom: 50px;
 
 	@include responsive(min-width, 992px) {
 		display: flex;
 		align-items: center;
 		height: 462px;
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 
 	.col-md-5 {
@@ -237,23 +274,23 @@
 		}
 	}
 
-	.tab-icon {
-		width: 446.07px;
-		height: 285.57px;
-		margin: 0 auto;
-		display: block;
-		margin-bottom: 50px;
-
-		@include responsive(min-width, 992px) {
-			margin-bottom: 0;
-		}
-	}
+	// .tab-icon {
+	// 	width: 446.07px;
+	// 	height: 285.57px;
+	// 	margin: 0 auto;
+	// 	display: block;
+	// 	margin-bottom: 50px;
+	//
+	// 	@include responsive(min-width, 992px) {
+	// 		margin-bottom: 0;
+	// 	}
+	// }
 
 
 }
 
 .leadership-image {
-	background-image: url('../images/leadership-hero.png');
+	background-image: url('../images/leadership-hero.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -617,7 +654,7 @@
 	.wrap {
 		max-width: 460px;
 		margin: 0 auto;
-		padding: 50px 0 50px 0;
+		padding: 3.125rem 1rem 3.125rem 1rem;
 
 		@include responsive(min-width, 992px) {
 			padding: 0;

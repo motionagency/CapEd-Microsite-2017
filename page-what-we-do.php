@@ -10,7 +10,7 @@ Template Name: What We Do Template
 
 <?php get_header(); ?>
 
-<section class="leadership-intro">
+<section class="wwd-intro">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
