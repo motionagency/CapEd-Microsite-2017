@@ -79,7 +79,7 @@ Template Name: What We Do Template
 									<h3>Curriculum/Course Development Support</h3>
 									<p>CapEd’s Instructional Design team provides course development services to each partner’s faculty Subject Matter Expert (SME) in developing master courses in the Virtual Campus learning management system.  SMEs will utilize a customized tool to communicate the course design to the instructional designer who will in turn provide resources and recommendations to assist the SME in optimizing the expression of course outcomes and the student experience.  The Instructional Designer will build the master course into the Virtual Campus as guided by the partner’s SME and approved by the partner’s program director.</p>
 									<h3>Policy Infrastructure Consulting</h3>
-									<p>CapEd assists the partner in developing policies and service infrastructure to align and complement the program set.  Institutional policy aligned cleanly to support post-traditional education initiatives is a critical strategy component in establishing the college as a competitive force in educating this specific population of students. (Admission criteria, transfer credit policy, full program/academic year registrations procedures, etc.)</p>
+									<p>CapEd assists the partner in developing policies and service infrastructure to align and complement the program set.  Institutional policy aligned cleanly to support post-traditional education initiatives is a critical strategy component in establishing the college as a competitive force in educating this specific population of students.</p>
 							</div>
 						</div>
 					</div>
@@ -151,7 +151,7 @@ Template Name: What We Do Template
 <section class="ready-to-talk">
 	<div class="row no-gutters d-flex align-items-center">
 		<div class="col-lg-6">
-			<img class="desktop" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk@2x.png" alt="Man talking on cellphone with laptop">
+			<img class="desktop" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk@2x.jpg" alt="Man talking on cellphone with laptop">
 			<img class="mobile" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk.png" alt="Man talking on cellphone with laptop">
 		</div>
 		<div class="col-lg-6">

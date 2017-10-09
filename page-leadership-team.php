@@ -75,7 +75,7 @@ Template Name: Leadership Team Template
 <section class="ready-to-talk">
 	<div class="row no-gutters d-flex align-items-center">
 		<div class="col-lg-6">
-			<img class="desktop" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk@2x.png" alt="Man talking on cellphone with laptop">
+			<img class="desktop" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk@2x.jpg" alt="Man talking on cellphone with laptop">
 			<img class="mobile" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/ready-to-talk.png" alt="Man talking on cellphone with laptop">
 		</div>
 		<div class="col-lg-6">

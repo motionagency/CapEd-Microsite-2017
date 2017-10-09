@@ -103,6 +103,10 @@
 				-o-transition: ease-out 200ms;
 				transition: ease-out 200ms;
 
+				@include responsive(max-width, 500px) {
+					font-size: 2em;
+				}
+
     			&:hover {
     				color: $red;
 					-webkit-transition: ease-out 200ms;
