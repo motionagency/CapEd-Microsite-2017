@@ -13,15 +13,15 @@ Template Name: What We Do Template
 <section class="wwd-intro">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-7">
+			<div class="col-12">
 				<?php the_title('<h1>', '</h1>'); ?>
 				<p>Every CapEd academic partner or Connect™ partner in the business world has different goals, opportunities, and challenges. For those who want to take advantage of our comprehensive end-to-end development capability, we apply the following solutions model to meet this challenge.</p>
 
 				<p>Other partners, however, may only have a need that taps into one or two of our service lines, rather than the complete model. In those cases, CapEd has the flexibility to serve up our menu with just the right solutions for a customized experience.</p>
 			</div>
-			<div class="col-lg-5">
+<!-- 			<div class="col-lg-5">
 				<img class="tab-icon" src="<?php echo esc_url( get_template_directory_uri() );?>/images/what-we-do-icon.svg" alt="">
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
@@ -29,12 +29,37 @@ Template Name: What We Do Template
 <!-- <section class="leadership-image"></section> -->
 
 <section class="what-we-do-tabs">
-	<nav class="nav nav-pills nav-fill flex-column flex-md-row" role="tablist">
-		<a class="nav-item nav-link active first" data-toggle="tab" role="tab" href="#collaboration">Collaboration &amp;<br class="tab-break"> Strategy Development</a>
-		<a class="nav-item nav-link second" data-toggle="tab" role="tab" href="#academic">Academic<br class="tab-break"> Services</a>
-		<a class="nav-item nav-link third" data-toggle="tab" role="tab" href="#promotion">Promotion</a>
-		<a class="nav-item nav-link fourth" data-toggle="tab" role="tab" href="#enrollment">Enrollment<br class="tab-break"> Services</a>
-		<a class="nav-item nav-link fifth" data-toggle="tab" role="tab" href="#delivery">Delivery</a>
+	<nav class="nav nav-pills nav-fill flex-column flex-sm-row" role="tablist">
+		<a class="nav-item nav-link active first" data-toggle="tab" role="tab" href="#collaboration">
+			<ul>
+				<li><img class="icon-wwdt" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/icons/icon_one.png" alt=""></li>
+				<li>Collaboration &amp;<br class="tab-break"> Strategy Development</li>
+			</ul>
+		</a>
+		<a class="nav-item nav-link second" data-toggle="tab" role="tab" href="#academic">
+			<ul>
+				<li><img class="icon-wwdt" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/icons/icon_two.png" alt=""></li>
+				<li>Academic<br class="tab-break"> Services</li>
+			</ul>
+		</a>
+		<a class="nav-item nav-link third" data-toggle="tab" role="tab" href="#promotion">
+			<ul>
+				<li><img class="icon-wwdt" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/icons/icon_three.png" alt=""></li>
+				<li>Promotion<br class="tab-break"><span class="hide">Promotion</span></li>
+			</ul>
+		</a>
+		<a class="nav-item nav-link fourth" data-toggle="tab" role="tab" href="#enrollment">
+			<ul>
+				<li><img class="icon-wwdt" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/icons/icon_four.png" alt=""></li>
+				<li>Enrollment<br class="tab-break"> Services</li>
+			</ul>
+		</a>
+		<a class="nav-item nav-link fifth" data-toggle="tab" role="tab" href="#delivery">
+			<ul>
+				<li><img class="icon-wwdt" src="<?php echo esc_url(get_template_directory_uri() ); ?>/images/icons/icon_five.png" alt=""></li>
+				<li>Delivery<br class="tab-break"><span class="hide">Delivery</span></li>
+			</ul>
+		</a>
 	</nav>
 
 	<div class="tab-content">

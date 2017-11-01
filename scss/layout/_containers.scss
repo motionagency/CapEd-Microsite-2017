@@ -356,24 +356,69 @@
 }
 
 // What we do page
+.nav-pills .nav-link.first,
 .nav-pills .nav-link.active.first {
-	background-color: $red;
+	color: $red;
+	background-color: transparent;
+}
+
+.nav-pills .nav-link.second,
+.nav-pills .nav-link.active.second {
+	color: $purple;
+ 	background-color: transparent;
+}
+
+.nav-pills .nav-link.third,
+.nav-pills .nav-link.active.third {
+	color: $green;
+	background-color: transparent;
+}
+
+.nav-pills .nav-link.fourth,
+.nav-pills .nav-link.active.fourth {
+	color: $darkGrey;
+	background-color: transparent;
+}
+
+.nav-pills .nav-link.fifth,
+.nav-pills .nav-link.active.fifth {
+	color: $blue;
+	background-color: transparent;
+}
+
+.nav-pills .nav-link.active.first {
+		@include responsive(max-width, 575px) {
+		background-color: $red;
+		color: $white;
+	}
 }
 
 .nav-pills .nav-link.active.second {
-	background-color: $purple;
+		@include responsive(max-width, 575px) {
+		background-color: $purple;
+		color: $white;
+	}
 }
 
 .nav-pills .nav-link.active.third {
-	background-color: $green;
+		@include responsive(max-width, 575px) {
+		background-color: $green;
+		color: $white;
+	}
 }
 
 .nav-pills .nav-link.active.fourth {
-	background-color: $darkGrey;
+		@include responsive(max-width, 575px) {
+		background-color: $darkGrey;
+		color: $white;
+	}
 }
 
 .nav-pills .nav-link.active.fifth {
-	background-color: $blue;
+		@include responsive(max-width, 575px) {
+		background-color: $blue;
+		color: $white;
+	}
 }
 
 .nav-pills .nav-link {
@@ -383,18 +428,33 @@
 .what-we-do-tabs {
 
 	.tab-break {
-		@include responsive(max-width, 768px) {
+		@include responsive(max-width, 600px) {
 			display: none;
 		}
 	}
 
 	nav {
+
+		.hide {
+			visibility: hidden;
+
+			@include responsive(max-width, 768px) {
+				display: none;
+			}
+		}
+
+		.icon-wwdt {
+			@include responsive(max-width, 992px) {
+				display: none;
+			}
+		}
 		a {
 			font-family: Museo-300Italic;
 			//height: 145px;
 			//height: 125px;
 			height: 100px;
 			background-color: $grey;
+			background-color: transparent;
 			color: $blue;
 			//font-size: 1.875em;
 			font-size: 1.25em;
@@ -427,24 +487,37 @@
 				border-right: none;
 			}
 		}
+
+		ul {
+			list-style: none;
+			padding-left: 0;
+
+			li:last-child {
+				margin-top: 15px;
+			}
+		}
 	}
 }
 
 .tab-content {
 	padding: 0 0 25px 0;
 
+	h2 {
+		margin-top: 1em;
+	}
+
 	@include responsive(min-width, 600px) {
 		padding: 63px 0 84px 0;
 	}
 
 	.icon {
-		width: 329.49px;
-		height: 641.31px;
+		width: 50%;
 		display: block;
-		margin: 0 auto 25px auto;
+		margin: 25px auto 25px auto;
 
 		@include responsive(min-width, 768px) {
-			margin: 0 auto;
+			width: 329.49px;
+			height: 641.31px;
 		}
 
 	}
@@ -750,11 +823,11 @@
 // Contact Us template
 .contact-us {
 	.wrap {
-		padding-top: 50px;
+		padding-top: 95px;
 		max-width: 820px;
 
 		@include responsive(min-width, 1000px) {
-			padding-top: 154px;
+			// padding-top: 154px;
 		}
 	}
 
